@@ -1,0 +1,495 @@
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Form Input Styles / INPUT STYLES
+2. Quantity Input / .quantity-input
+3. Input Result / .input-result
+4. Placeholder Styles / PLACEHOLDER STYLES
+5. Form Row / .form-row
+6. Form Oneline / .form-oneline
+7. Top Checkbox / .top-checkbox
+8. Reponsive Layout / MEDIA QUERIES
+-------------------------------------------------------------------*/
+/*------------------
+    INPUT STYLES
+------------------*/
+input, textarea,
+label, button {
+  font-family: $main-font;
+}
+
+input[type="text"], textarea,
+input[type="password"] {
+  width: 100%;
+  border: 1px solid $input-border-color;
+  border-radius: 4px;
+  padding: 14px;
+  color: $input-color;
+  font-size: $input-fs;
+
+  &.dark {
+    background-color: #333;
+    border: none;
+  }
+
+  &:focus {
+    border-color: $main-color;
+  }
+
+  &:disabled {
+    background-color: #f1f1f1;
+  }
+
+  &.nofocus {
+    &:focus {
+      border-color: $input-border-color;
+    }
+  }
+}
+
+input[type="text"] {
+  &.short {
+    width: 315px;
+  }
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+	display: none;
+
+	&:checked + {
+    .checkbox {
+      .box {
+        border-color: $main-color;
+    		background-color: $main-color;
+
+        .svg-check {
+          display: block;
+        }
+      }
+    }
+
+    .radio {
+      .circle {
+        border-color: $main-color;
+    		background-color: $main-color;
+
+        .inner-circle {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+textarea {
+  height: 160px;
+}
+
+label {
+  color: $label-color;
+	font-size: $label-fs;
+	font-family: $main-font;
+
+  &.inline {
+    float: left;
+    margin-right: 14px;
+
+    & + {
+      .rating {
+        position: relative;
+        top: 2px;
+      }
+    }
+  }
+
+  &.radio {
+    cursor: pointer;
+
+    .circle {
+      display: inline-block;
+      width: 14px;
+      height: 14px;
+      margin-right: 8px;
+      border-radius: 50%;
+      border: 1px solid $line-color;
+      position: relative;
+      top: 2px;
+
+      .inner-circle {
+        width: 4px;
+        height: 4px;
+        border-radius: 50%;
+        background-color: $white;
+        position: absolute;
+        top: 4px;
+        left: 50%;
+        margin-left: -2px;
+        display: none;
+      }
+    }
+  }
+
+  &.checkbox {
+    cursor: pointer;
+
+    .box {
+      display: inline-block;
+      width: 14px;
+      height: 14px;
+      margin-right: 8px;
+      border: 1px solid $line-color;
+      border-radius: 2px;
+      background-color: $white;
+      position: relative;
+      top: 2px;
+
+      .svg-check {
+        margin-left: -4px;
+        position: absolute;
+        top: 3px;
+        left: 50%;
+        display: none;
+      }
+    }
+  }
+
+  &.select-block {
+		width: 100%;
+		display: inline-block;
+		position: relative;
+
+    &.medium {
+      select {
+        height: 47px;
+        line-height: 47px;
+      }
+
+      .svg-arrow {
+        top: 20px;
+      }
+    }
+
+		.svg-arrow {
+			fill: $light-gray;
+			width: 6px;
+			height: 10px;
+			position: absolute;
+			top: 17px;
+			right: 17px;
+      pointer-events: none;
+		}
+	}
+
+  &.rl-label {
+    display: block;
+    margin-bottom: 12px;
+    color: $label-dark-color;
+    font-size: $label-medium-fs;
+    font-weight: $bold;
+
+    &.separated {
+      margin-bottom: 26px;
+    }
+
+    &.required {
+      &:after {
+        content: '*';
+        margin-left: 4px;
+        color: $main-color;
+      }
+    }
+  }
+}
+
+select {
+  width: 100%;
+	height: 42px;
+	padding: 0 42px 0 15px;
+	border: 1px solid $line-color;
+  background-color: $white;
+	border-radius: 4px;
+	color: $paragraph-color;
+	font-family: $main-font;
+	line-height: 42px;
+	@include appearance(none);
+	cursor: pointer;
+}
+
+/* REMOVE IE SELECT ARROW */
+select::-ms-expand {
+    display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.quantity-input {
+  width: 70px;
+  height: 47px;
+  padding-left: 20px;
+  border: 1px solid $input-border-color;
+  border-radius: 4px;
+  color: $input-color;
+  font-family: $main-font;
+  font-size: $input-fs;
+  line-height: 47px;
+  position: relative;
+
+  .increment-count,
+  .decrement-count {
+    width: 26px;
+    height: 50%;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+  }
+
+  .increment-count {
+    top: 0;
+
+    .svg-arrow {
+      top: 9px;
+    }
+  }
+
+  .decrement-count {
+    bottom: 0;
+
+    .svg-arrow {
+      bottom: 7px;
+    }
+  }
+
+  .svg-arrow {
+    fill: $light-gray;
+    width: 6px;
+    height: 8px;
+    position: absolute;
+    right: 15px;
+    cursor: pointer;
+  }
+}
+
+.input-result {
+  position: relative;
+
+  .svg-check,
+  .svg-cross {
+    position: absolute;
+    top: 19px;
+    right: 14px;
+    pointer-events: none;
+  }
+
+  .input-result-message {
+    margin-top: 12px;
+    font-size: $fs-13;
+    line-height: 1em;
+  }
+
+  &.success {
+    .svg-check {
+      fill: $main-color;
+      width: 11px;
+      height: 9px;
+    }
+  }
+
+  &.error {
+    input[type="text"], textarea,
+    input[type="password"] {
+      border-color: $gray;
+    }
+
+    .svg-cross {
+      fill: $black;
+    }
+  }
+}
+
+/*-------------------------
+    PLACEHOLDER STYLES
+-------------------------*/
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color: $placeholder-color;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: $placeholder-color;
+  opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: $placeholder-color;
+  opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: $placeholder-color;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: $placeholder-color;
+}
+
+.form-row {
+  margin-bottom: 24px;
+  @include floatfix;
+
+  &.short-space {
+    margin-bottom: 20px;
+  }
+
+  &.separated {
+    margin-top: 40px;
+  }
+
+  &.right {
+    text-align: right;
+
+    .button {
+      margin-top: 56px;
+      display: inline-block;
+    }
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  .half {
+    float: left;
+    width: 49%;
+
+    &.no-label {
+      padding-top: 30px;
+    }
+
+    & + .half {
+      float: right;
+    }
+  }
+
+  .third {
+    float: left;
+    width: 57%;
+
+    & + .third {
+      float: right;
+      width: 40%;
+    }
+  }
+
+  .link {
+    &:last-child {
+      float: right;
+      position: relative;
+      top: 3px;
+    }
+  }
+
+  input {
+    & + {
+      input {
+        margin-top: 12px;
+      }
+    }
+  }
+
+  .rating {
+    float: left;
+  }
+
+  .radio-selected-info {
+    padding-left: 25px;
+    font-size: $fs-14;
+    line-height: 24px;
+  }
+}
+
+.form-oneline {
+  padding: 20px 36px 0 0;
+  border-bottom: 1px solid $line-color;
+  overflow: hidden;
+  position: relative;
+
+  .radio {
+    margin-bottom: 20px;
+  }
+
+  p {
+    margin: 0 0 26px 26px;
+    font-size: $fs-14;
+    line-height: 24px;
+    display: none;
+  }
+
+  .img-list {
+    position: absolute;
+    top: 20px;
+    right: 0;
+  }
+}
+
+.top-checkbox {
+  position: relative;
+
+  & > .checkbox {
+    position: absolute;
+    top: 2px;
+    right: 0;
+  }
+}
+
+// MEDIA QUERIES
+@media screen and (max-width: 680px) {
+  input[type="text"] {
+    &.short {
+      width: 100%;
+    }
+  }
+
+  .form-row {
+    .half {
+      float: none;
+      width: 100%;
+
+      &.no-label {
+        padding-top: 0;
+      }
+
+      & + .half {
+        float: none;
+        margin-top: 24px;
+      }
+    }
+
+    .third {
+      float: none;
+      width: 100%;
+
+      & + .third {
+        float: none;
+        width: 100%;
+        margin-top: 24px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .top-checkbox {
+    .line-separator {
+      & + {
+        form {
+          margin-top: 66px;
+        }
+      }
+    }
+
+    & > .checkbox {
+      position: absolute;
+      top: 68px;
+      left: 0;
+      right: auto;
+    }
+  }
+}

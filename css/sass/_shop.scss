@@ -1,0 +1,364 @@
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Sidebar Box / .sidebar
+2. Content Box / .content
+3. Sidebar Widget / .sidebar-widget
+4. Widget Dropdown / .widget-dropdown
+5. Widget Inner Dropdown / .widget-inner-dropdown
+6. Checkbox List / .checkbox-list
+7. Range Slider / .range-slider
+8. Filter Header / .filter-header
+9. Filter Options / .filter-options
+10. View Selectors / .view-selectors
+11. Pager Container / .pager-wrap
+12. Pager / .pager
+13. Reponsive Layout / MEDIA QUERIES
+-------------------------------------------------------------------*/
+.sidebar, .content {
+  &.left {
+    float: left;
+  }
+
+  &.right {
+    float: right;
+  }
+}
+
+.sidebar {
+  width: 270px;
+}
+
+.sidebar-widget {
+  margin-bottom: 40px;
+}
+
+.content {
+  width: 870px;
+}
+
+.widget-dropdown {
+  .widget-dropdown-item {
+    & > a {
+      display: block;
+      height: 51px;
+      line-height: 51px;
+      border-bottom: 1px solid $line-color;
+      color: $black;
+      font-size: $fs-14;
+      font-weight: $bold;
+      position: relative;
+      @include transition(.15s, color);
+
+      &:hover {
+        color: $main-color;
+      }
+
+      &.open {
+        .svg-plus {
+          display: none;
+        }
+
+        .svg-minus {
+          display: block;
+        }
+      }
+
+      .svg-plus, .svg-minus {
+        position: absolute;
+        top: 20px;
+        right: 0;
+      }
+
+      .svg-minus {
+        display: none;
+      }
+    }
+
+    &:last-child {
+      a {
+        border-bottom: none;
+      }
+    }
+  }
+}
+
+.widget-inner-dropdown {
+  padding: 10px 0;
+  border-bottom: 1px solid $line-color;
+  display: none;
+
+  .widget-inner-dropdown-item {
+    & > a {
+      display: block;
+      height: 40px;
+      line-height: 40px;
+      padding-left: 14px;
+      color: $paragraph-color;
+      font-size: $fs-14;
+      @include transition(.15s, color);
+
+      &:hover {
+        color: $black;
+      }
+    }
+  }
+}
+
+.checkbox-list {
+  @include floatfix;
+
+  .checkbox {
+    float: left;
+    width: 75px;
+    margin: 0 55px 20px 0;
+
+    &:nth-child(odd) {
+      float: right;
+    }
+  }
+}
+
+.range-slider {
+  @include floatfix;
+
+  .range-slider-actions {
+    width: 270px;
+    margin: 34px auto 20px;
+
+    .button {
+      float: left;
+      margin-right: 20px;
+    }
+
+    p {
+      float: left;
+      margin-top: 10px;
+      font-size: $fs-14;
+      line-height: 1em;
+
+      .price-from, .price-to {
+        color: $black;
+        font-weight: $bold;
+      }
+    }
+  }
+}
+
+.filter-header {
+  min-height: 64px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid $line-color;
+  @include floatfix;
+
+  .title {
+    float: left;
+    font-size: $fs-12;
+    margin-top: 16px;
+  }
+
+  .filter-options {
+    float: right;
+  }
+
+  .view-selectors {
+    float: right;
+    margin-left: 24px;
+  }
+}
+
+.filter-options {
+  @include floatfix;
+
+  .filter-option {
+    float: left;
+    margin-right: 12px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    .title {
+      margin-right: 12px;
+    }
+
+    .select-block {
+      float: left;
+      width: 194px;
+    }
+  }
+}
+
+.view-selectors {
+  @include floatfix;
+
+  .view-selector {
+    float: left;
+    width: 42px;
+    height: 42px;
+    border: 1px solid $line-color;
+    border-radius: 4px;
+    margin-right: 12px;
+    text-align: center;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    .svg-list {
+      margin-top: 13px;
+    }
+
+    .svg-grid {
+      margin-top: 12px;
+    }
+
+    &.selected {
+      .svg-list, .svg-grid {
+        fill: $main-color;
+      }
+    }
+  }
+}
+
+.pager-wrap {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.pager {
+  display: inline-block;
+
+  .pager-item {
+    float: left;
+    margin-right: 8px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    a {
+      display: block;
+      width: 42px;
+      height: 42px;
+      line-height: 42px;
+      border: 1px solid $line-color;
+      border-radius: 4px;
+      color: $black;
+      font-size: $fs-13;
+      font-weight: $bold;
+      text-align: center;
+      @include transition(.15s, color);
+
+      &:hover {
+        color: $main-color;
+
+        .svg-arrow {
+          fill: $main-color;
+        }
+      }
+
+      .svg-arrow {
+        fill: $black;
+        @include transition(.15s, fill);
+      }
+    }
+
+    &.selected {
+      a {
+        color: $main-color;
+      }
+    }
+  }
+}
+
+// MEDIA QUERIES
+@media screen and (max-width: 1260px) {
+  .content, .sidebar {
+    &.right, &.left {
+      float: none;
+      width: 95%;
+      margin: 0 auto;
+    }
+  }
+
+  .sidebar {
+    &.left, &.right {
+      margin-top: 60px;
+    }
+  }
+
+  .section {
+    & > .filter-header {
+      padding-bottom: 20px;
+      text-align: center;
+
+      & > .title {
+        float: none;
+        margin-bottom: 20px;
+      }
+
+      .filter-options {
+        float: none;
+
+        .filter-option {
+          float: none;
+          margin-right: 0;
+
+          .title {
+            margin: 0 0 10px 0;
+          }
+
+          .select-block {
+            width: 100%;
+            margin-bottom: 15px;
+          }
+        }
+      }
+
+      .view-selectors {
+        float: none;
+        display: inline-block;
+        margin: 0 0 20px 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .content {
+    .filter-header {
+      padding-bottom: 20px;
+      text-align: center;
+
+      & > .title {
+        float: none;
+        margin-bottom: 20px;
+      }
+
+      .filter-options {
+        float: none;
+
+        .filter-option {
+          float: none;
+          margin-right: 0;
+
+          .title {
+            margin: 0 0 10px 0;
+          }
+
+          .select-block {
+            width: 100%;
+            margin-bottom: 15px;
+          }
+        }
+      }
+
+      .view-selectors {
+        float: none;
+        display: inline-block;
+        margin: 0 0 20px 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,328 @@
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Widget Line Container / .widget-line-wrap
+2. Widget Line 2 / .widget-line-2
+3. Widget Line Versions / .widget-line
+4. Actions List Versions / .actions-list
+5. Reponsive Layout / MEDIA QUERIES
+-------------------------------------------------------------------*/
+.widget-line-wrap {
+  background-color: $widget-line-bg-color;
+
+  &.dark {
+    background-color: $widget-line-dark-bg-color;
+
+    .actions-list {
+      background-color: $widget-line-dark-bg-color;
+
+      .dropdown-list {
+        background-color: $widget-line-dark-bg-color;
+        outline: 1px solid $widget-line-dark-bg-color;
+      }
+
+      input[type="text"] {
+        background-color: $widget-line-dark-bg-color;
+      }
+    }
+  }
+
+  &.light {
+    background-color: $widget-line-light-bg-color;
+    border-bottom: 1px solid $line-color;
+
+    .actions-list {
+      background-color: $widget-line-light-bg-color;
+
+      .actions-list-item {
+        border-color: $line-color;
+
+        .social-link {
+          a {
+            color: $light-gray;
+
+            &:hover {
+              color: $white;
+            }
+          }
+        }
+
+        .action-button {
+          color: $paragraph-color;
+
+          .svg-arrow {
+            fill: $light-gray;
+          }
+        }
+      }
+
+      .dropdown-list {
+        background-color: $widget-line-light-bg-color;
+        outline-color: $line-color;
+        border-color: $line-color;
+        border-top-color: $white;
+
+        .dropdown-list-item {
+          a {
+            color: $paragraph-color;
+          }
+        }
+      }
+
+      .search-form {
+        .svg-mag-glass,
+        .svg-cross {
+          fill: $main-color;
+        }
+
+        input[type="text"] {
+          color: $paragraph-color;
+          background-color: $widget-line-light-bg-color;
+        }
+      }
+    }
+  }
+}
+
+.widget-line-2 {
+  display: none;
+}
+
+.widget-line {
+  height: 50px;
+  @include floatfix;
+
+  &.big {
+    height: 60px;
+
+    .actions-list {
+      .actions-list-item {
+        .social-link {
+          a {
+            line-height: 60px;
+          }
+        }
+
+        .action-button {
+          line-height: 60px;
+        }
+      }
+    }
+
+    .copyright {
+      line-height: 60px;
+    }
+  }
+
+  .copyright {
+    float: left;
+    color: $paragraph-dark-color;
+    font-size: $copyright-fs;
+    margin-left: 8px;
+    line-height: 50px;
+  }
+}
+
+.actions-list {
+  background-color: $actions-list-bg-color;
+  @include floatfix;
+
+  &.left {
+    float: left;
+  }
+
+  &.right {
+    float: right;
+  }
+
+  .actions-list-item {
+    float: left;
+    border-left: 1px solid $actions-list-separator-color;
+    position: relative;
+
+    &.last {
+      border-right: 1px solid $actions-list-separator-color;
+    }
+
+    &.full {
+      float: none;
+    }
+
+    &.void {
+      border: none;
+
+      &:last-child {
+        border: none;
+      }
+    }
+
+    &:last-child {
+      border-right: 1px solid $actions-list-separator-color;
+    }
+
+    .social-link {
+      width: 50px;
+
+      a {
+        display: block;
+        text-align: center;
+        line-height: 50px;
+        color: $social-link-color;
+        @include transition(.3s, all);
+
+        &:hover {
+          background-color: $main-color;
+        }
+      }
+    }
+
+    .action-button {
+      display: block;
+      padding: 0 18px;
+      color: $action-button-color;
+      font-size: $action-button-fs;
+      line-height: 50px;
+      position: relative;
+
+      &.regular {
+        color: $action-button-regular-color;
+      }
+
+      .bold {
+        margin-left: 5px;
+      }
+    }
+
+    .options-dropdown {
+      text-transform: uppercase;
+      padding-right: 12px;
+
+      .svg-arrow {
+        margin-left: 10px;
+      }
+    }
+
+    .dropdown-list {
+      width: 100%;
+      padding: 8px 0;
+      background-color: $actions-list-bg-color;
+      outline: 1px solid $actions-list-bg-color;
+      border-top: 1px solid $actions-list-separator-color;
+      position: absolute;
+      top: 50px;
+      left: 0;
+      z-index: $local-max-index;
+      display: none;
+
+      .dropdown-list-item {
+        a {
+          display: block;
+          padding-left: 18px;
+          color: $action-button-color;
+          font-size: $action-button-fs;
+          line-height: 24px;
+          text-transform: uppercase;
+          @include transition(.3s, color);
+
+          &:hover {
+            color: $main-color;
+          }
+        }
+
+        &.selected {
+          a {
+            color: $main-color;
+          }
+        }
+      }
+    }
+
+    .search-form {
+      min-width: 210px;
+      position: relative;
+      @include transition(.3s, min-width);
+
+      &.extended {
+        min-width: 260px;
+      }
+
+      &.v2 {
+        border: 1px solid $line-color;
+        border-radius: 0;
+        position: absolute;
+        top: 89px;
+        right: 0;
+        opacity: 0;
+        visibility: hidden;
+        @include transition(.4s, all);
+
+        &.open {
+          opacity: 1;
+          visibility: visible;
+          @include transform_translate(0, 52px);
+        }
+      }
+
+      input[type="text"] {
+        width: 100%;
+        padding-right: 50px;
+        color: $white;
+      }
+
+      .search-submit, .search-cancel {
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        cursor: pointer;
+        position: absolute;
+        top: 0;
+        right: 0;
+
+        &.hidden {
+          display: none;
+        }
+      }
+    }
+
+    ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+      color: $placeholder-dark-color;
+    }
+    :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+      color: $placeholder-dark-color;
+      opacity:  1;
+    }
+    ::-moz-placeholder { /* Mozilla Firefox 19+ */
+      color: $placeholder-dark-color;
+      opacity:  1;
+    }
+    :-ms-input-placeholder { /* Internet Explorer 10-11 */
+      color: $placeholder-dark-color;
+    }
+    ::-ms-input-placeholder { /* Microsoft Edge */
+      color: $placeholder-dark-color;
+    }
+
+    input[type="text"] {
+      padding: 0 18px;
+      line-height: 50px;
+      border: none;
+      background-color: $actions-list-bg-color;
+      font-size: $action-list-input-fs;
+    }
+  }
+}
+
+// MEDIA QUERIES
+@media screen and (max-width: 620px) {
+  .widget-line-copy {
+    .actions-list {
+      display: none;
+    }
+
+    .copyright {
+      float: none;
+      text-align: center;
+    }
+  }
+}

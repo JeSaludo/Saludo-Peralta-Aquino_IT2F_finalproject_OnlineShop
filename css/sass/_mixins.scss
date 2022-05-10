@@ -1,0 +1,51 @@
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Mixins / MIXINS
+2. Z-Index Values / INDEX
+-------------------------------------------------------------------*/
+/*-------------
+    MIXINS
+-------------*/
+@mixin transition($duration, $who:all, $ease:ease-in-out) {
+  transition: $who $duration $ease;
+}
+
+@mixin transition_delay($duration) {
+  transition-delay: $duration;
+}
+
+@mixin transform_rotate($deg) {
+  -webkit-transform: rotate($deg);
+  transform: rotate($deg);
+}
+
+@mixin transform_scale($scale) {
+  -webkit-transform: scale($scale);
+  transform: scale($scale);
+}
+
+@mixin transform_translate($x, $y) {
+  -webkit-transform: translate($x, $y);
+  transform: translate($x, $y);
+}
+
+@mixin floatfix() {
+  &:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin appearance($value) {
+  -webkit-appearance: $value;
+  -moz-appearance: $value;
+  appearance: $value;
+}
+
+/*------------
+    INDEX
+------------*/
+$local-max-index: 10;
+$global-max-index: 9999;

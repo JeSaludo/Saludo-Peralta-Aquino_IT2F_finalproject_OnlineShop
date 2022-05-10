@@ -1,0 +1,86 @@
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Template Colors
+-------------------------------------------------------------------*/
+$white: #fff;
+$white-dark: #f0f0f0;
+$dark-white: #f9f9f9;
+$dark-black: #1b1b1b;
+$black: #242424;
+$light-black: #3e3e3e;
+$lighter-black: #2d2d2d;
+$light-gray: #b2b2b2;
+$gray: #8b8b8b;
+$dark-gray: #666;
+$orange: #ff5400;
+$light-orange: #ff7200;
+$yellow: #ffae00;
+$dark-blue: #00063c;
+$blue: #2c5990;
+$light-blue: #16bce5;
+$line-color: #e8e8e8;
+$fb-color: #3468a7;
+$twt-color: #24ccf5;
+
+$main-color: $orange;
+$secondary-color: $light-orange;
+$tertiary-color: $yellow;
+
+$section-navigation-bg-color: $dark-white;
+$section-bg-color: $white;
+
+$button-hover-color: $secondary-color;
+$button-dark-hover-color: $light-black;
+$button-square-color: $light-gray;
+$button-square-hover-color: $main-color;
+$button-blue-color: $blue;
+$button-lightblue-color: $light-blue;
+
+$link-color: $gray;
+
+$paragraph-color: $gray;
+$paragraph-dark-color: $dark-gray;
+$title-color: $black;
+$title-secondary-color: $white;
+$pretitle-color: $light-gray;
+
+$widget-line-bg-color: $black;
+$widget-line-dark-bg-color: $dark-black;
+$widget-line-light-bg-color: $white;
+
+$actions-list-bg-color: $black;
+$actions-list-separator-color: $light-black;
+$action-button-color: $white;
+$action-button-regular-color: $gray;
+$social-link-color: $white;
+
+$label-color: $gray;
+$label-dark-color: $black;
+$input-color: $gray;
+$input-border-color: $line-color;
+$placeholder-color: $light-gray;
+$placeholder-dark-color: $gray;
+
+$navigation-bg-color: $white;
+$menu-link-color: $black;
+$cart-item-quantity-bg-color: $black;
+$cart-item-quantity-text-color: $white;
+$menu-dropdown-color: $black;
+$menu-dropdown-border-color: $light-black;
+$menu-dropdown-link-color: $gray;
+$mobile-menu-bg-color: $black;
+$mobile-menu-dark-bg-color: $dark-black;
+$mobile-menu-line-color: $light-black;
+$link-list-item-color: $gray;
+$content-dropdown-color: $black;
+
+$form-popup-bg-color: $white;
+
+$alert-info-bg-color: $yellow;
+$alert-success-bg-color: $orange;
+$alert-error-bg-color: $black;
+$alert-v2-bg-color: #f1f1f1;
+$quote-bg-color: $white;
+$quote2-bg-color: $main-color;
+$quote3-bg-color: #f1f1f1;

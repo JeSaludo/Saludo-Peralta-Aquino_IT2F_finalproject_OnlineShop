@@ -1,0 +1,198 @@
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Shortcode Title / .shortcode-title
+2. Color Boxes / .color-boxes
+3. Font Display / .font-display
+4. Form Display / .form-display
+5. Button Display / .button-display
+6. Alert Box Display / .alert-box-display
+7. Quotes Display / .quotes-display
+8. Reponsive Layout / MEDIA QUERIES
+-------------------------------------------------------------------*/
+.shortcode-title {
+  margin-bottom: 50px;
+}
+
+.color-boxes {
+  @include floatfix;
+
+  .color-box {
+    float: left;
+    width: 70px;
+    margin: 0 15px 15px 0;
+    text-align: center;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    .cbox {
+      width: 70px;
+      height: 70px;
+      border-radius: 2px;
+      margin-bottom: 15px;
+
+      &.main {
+        background-color: $main-color;
+      }
+
+      &.secondary {
+        background-color: $secondary-color;
+      }
+
+      &.tertiary {
+        background-color: $tertiary-color;
+      }
+
+      &.black {
+        background-color: $black;
+      }
+
+      &.gray {
+        background-color: $gray;
+      }
+
+      &.light-gray {
+        background-color: $light-gray;
+      }
+    }
+
+    .ccode {
+      font-size: $fs-11;
+      color: $paragraph-color;
+    }
+  }
+}
+
+.font-display {
+  @include floatfix;
+
+  .font-weight {
+    float: left;
+    width: 20%;
+
+    .title {
+      text-transform: none;
+      margin-bottom: 25px;
+
+      &.bold {
+        font-weight: $bold;
+      }
+
+      &.regular {
+        color: $paragraph-color;
+        font-weight: $regular;
+      }
+    }
+  }
+
+  .font-paragraph {
+    float: right;
+    width: 78%;
+    position: relative;
+    top: -9px;
+  }
+}
+
+.form-display {
+  @include floatfix;
+
+  .input-display {
+    float: left;
+    width: 65%;
+  }
+
+  .radio-check-display {
+    float: right;
+    width: 33%;
+    padding-top: 24px;
+
+    .form-row {
+      margin-bottom: 30px;
+    }
+  }
+}
+
+.button-display {
+  margin-top: 70px;
+
+  .button-display-list {
+    @include floatfix;
+
+    .button-display-list-item {
+      float: left;
+      width: 200px;
+      margin: 0 70px 40px 0;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      &.short {
+        .button {
+          margin-bottom: 10px;
+        }
+      }
+
+      .button {
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+
+.alert-box-display {
+  margin-top: 60px;
+
+  .alert-box {
+    margin-bottom: 24px;
+  }
+}
+
+.quotes-display {
+  margin-top: 80px;
+
+  .quote-box {
+    &.v1 {
+      margin-bottom: 34px;
+    }
+  }
+}
+
+// MEDIA QUERIES
+@media screen and (max-width: 1260px) {
+  .form-display {
+    .input-display,
+    .radio-check-display {
+      float: none;
+      width: 100%;
+    }
+
+    .input-display {
+      margin-bottom: 30px;
+    }
+  }
+
+  .quotes-display {
+    .quote-box {
+      &.v1 {
+        margin-bottom: 80px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .font-display {
+    .font-weight,
+    .font-paragraph {
+      float: none;
+      width: 100%;
+    }
+
+    .font-weight {
+      margin-bottom: 40px;
+    }
+  }
+}

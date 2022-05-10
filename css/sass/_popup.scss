@@ -1,0 +1,145 @@
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Form Popup Versions / .form-popup
+2. Magnific Popup Styles / MFP STYLES
+3. Reponsive Layout / MEDIA QUERIES
+-------------------------------------------------------------------*/
+.form-popup {
+  width: 430px;
+  margin: 0 auto;
+  background-color: $form-popup-bg-color;
+  position: relative;
+  @include floatfix;
+
+  .close-btn {
+    fill: $black;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  &.medium {
+    width: 831px;
+  }
+
+  .form-popup-column {
+    float: left;
+    width: 430px;
+    padding: 45px 40px 40px;
+
+    &.centered {
+      .subsection-title, p {
+        text-align: center;
+      }
+
+      .line-separator {
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+
+    &.small {
+      width: 415px;
+      padding: 45px 48px 50px;
+    }
+  }
+
+  .form-popup-column-separator {
+    float: left;
+    width: 1px;
+    height: 400px;
+    margin-top: 72px;
+    background-color: $line-color;
+  }
+}
+
+/*----------------
+    MFP STYLES
+----------------*/
+.mfp-bg {
+  opacity: .85;
+  background-color: #000;
+}
+
+/* magnificPopup animations */
+.mfp-anim {
+  /* overlay at start */
+  &.mfp-bg {
+    opacity: 0;
+    @include transition(.3s, all);
+
+    /* overlay animate in */
+    &.mfp-ready {
+      opacity: .8;
+    }
+
+    /* overlay animate out */
+    &.mfp-removing {
+      opacity: 0;
+    }
+  }
+
+  &.mfp-wrap {
+    /* content at start */
+    .mfp-content {
+      opacity: 0;
+      @include transform_scale(0);
+      @include transition(.3s, all);
+    }
+
+    /* content animate in */
+    &.mfp-ready {
+      .mfp-content {
+        opacity: 1;
+        @include transform_scale(1);
+      }
+    }
+
+    /* content animate out */
+    &.mfp-removing {
+      .mfp-content {
+        opacity: 0;
+        @include transform_scale(0);
+      }
+    }
+  }
+}
+
+// MEDIA QUERIES
+@media screen and (max-width: 1024px) {
+  .form-popup {
+    &.medium {
+      width: 430px;
+    }
+
+    .form-popup-column {
+      float: none;
+    }
+
+    .form-popup-column-separator {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .form-popup {
+    width: 100%;
+
+    &.medium {
+      width: 100%;
+    }
+
+    .form-popup-column {
+      width: 100%;
+      padding: 45px 20px 40px;
+
+      &.small {
+        width: 100%;
+        padding: 45px 24px 50px;
+      }
+    }
+  }
+}

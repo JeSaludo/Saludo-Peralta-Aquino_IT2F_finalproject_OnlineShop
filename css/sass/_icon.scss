@@ -1,0 +1,154 @@
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Svg Arrow / .svg-arrow
+2. Svg Checkmark / .svg-check
+3. Svg Magnifying Glass / .svg-mag-glass
+4. Svg Cross / .svg-cross
+5. Svg Cart / .svg-cart
+6. Svg Cart Small / .svg-cart-small
+7. Svg Heart / .svg-heart
+8. Svg Burger / .svg-burger
+9. Svg Plus Sign / .svg-plus
+10. Svg Minus Sign / .svg-minus
+11. Svg Grid / .svg-grid
+12. Svg List / .svg-list
+13. Svg Check Big / .svg-check-big
+14. Svg Restart / .svg-restart
+-------------------------------------------------------------------*/
+.svg-arrow {
+  fill: $white;
+  width: 8px;
+  height: 6px;
+
+  &.medium {
+    width: 5px;
+    height: 9px;
+  }
+
+  &.small {
+    width: 7px;
+    height: 6px;
+  }
+
+  &.tiny {
+    width: 4px;
+    height: 8px;
+  }
+
+  &.inverted {
+    @include transform_rotate(180deg);
+  }
+
+  &.face-down {
+    @include transform_rotate(90deg);
+  }
+
+  &.face-up {
+    @include transform_rotate(-90deg);
+  }
+}
+
+.svg-check {
+  fill: $white;
+  width: 10px;
+  height: 7px;
+
+  &.medium {
+    width: 20px;
+    height: 16px;
+  }
+}
+
+.svg-mag-glass {
+  fill: $white;
+  width: 12px;
+  height: 12px;
+}
+
+.svg-cross {
+  fill: $white;
+  width: 10px;
+  height: 10px;
+
+  &.small {
+    width: 9px;
+    height: 9px;
+  }
+
+  &.medium {
+    width: 12px;
+    height: 12px;
+  }
+
+  &.large {
+    width: 102px;
+    height: 102px;
+  }
+}
+
+.svg-cart {
+  fill: $white;
+  width: 22px;
+  height: 18px;
+
+  &.large {
+    width: 321px;
+    height: 262px;
+  }
+}
+
+.svg-cart-small {
+  fill: $white;
+  width: 16px;
+  height: 13px;
+}
+
+.svg-heart {
+  fill: $white;
+  width: 14px;
+  height: 12px;
+}
+
+.svg-burger {
+  fill: $white;
+  width: 22px;
+  height: 14px;
+}
+
+.svg-plus, .svg-minus {
+  fill: $main-color;
+  width: 10px;
+  height: 10px;
+}
+
+.svg-plus {
+  &.medium {
+    fill: $white;
+    width: 12px;
+    height: 12px;
+  }
+}
+
+.svg-grid {
+  fill: $light-gray;
+  width: 16px;
+  height: 16px;
+}
+
+.svg-list {
+  fill: $light-gray;
+  width: 16px;
+  height: 14px;
+}
+
+.svg-check-big {
+  width: 130px;
+  height: 101px;
+}
+
+.svg-restart {
+  fill: $white;
+  width: 10px;
+  height: 10px;
+}

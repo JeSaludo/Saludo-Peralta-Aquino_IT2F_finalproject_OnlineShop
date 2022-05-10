@@ -1,0 +1,93 @@
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. About Us Banner Container / .aboutus-banner-wrap
+2. About Us Banner / .aboutus-banner
+3. Reponsive Layout / MEDIA QUERIES
+-------------------------------------------------------------------*/
+.aboutus-banner-wrap {
+  background-image: url(../img/aboutus/aboutus_bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+
+  .aboutus-banner-bg-fill {
+    width: 51%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .2);
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+
+.aboutus-banner {
+  min-height: 704px;
+  @include floatfix;
+
+  .aboutus-banner-content {
+    padding-top: 136px;
+    float: right;
+    width: 540px;
+    position: relative;
+    z-index: $local-max-index;
+
+    .title {
+      margin-bottom: 14px;
+      font-size: $fs-54;
+    }
+
+    p.title {
+      margin-bottom: 40px;
+      color: $white;
+      font-size: $fs-20;
+      font-weight: $bold;
+    }
+
+    .button {
+      margin-top: 56px;
+    }
+  }
+}
+
+// MEDIA QUERIES
+@media screen and (max-width: 1260px) {
+  .aboutus-banner-wrap {
+    background-image: url(../img/aboutus/aboutus_nobg.png);
+
+    .aboutus-banner-bg-fill {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .aboutus-banner {
+    min-height: 600px;
+
+    .aboutus-banner-content {
+      float: none;
+      width: 95%;
+      padding: 100px 0;
+      text-align: center;
+
+      .button {
+        margin: 56px auto 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .aboutus-banner {
+    .aboutus-banner-content {
+      .title {
+        font-size: $fs-42;
+      }
+
+      p.title {
+        line-height: 1.6;
+      }
+    }
+  }
+}

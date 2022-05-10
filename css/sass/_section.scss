@@ -1,0 +1,205 @@
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Section Navigation Container / .section-navigation-wrap
+2. Section Navigation / .section-navigation
+3. Section Container / .section-wrap
+4. Section / .section
+5. Product Showcase / .product-showcase
+6. Welcome Section Container / .welcome-section-wrap
+7. Welcome Section / .welcome-section
+8. Features Section / .features-section
+9. Reponsive Layout / MEDIA QUERIES
+-------------------------------------------------------------------*/
+.section-navigation-wrap {
+  border-top: 1px solid $line-color;
+  background-color: $section-navigation-bg-color;
+}
+
+.section-navigation {
+  height: 60px;
+
+  .section-navigation-path {
+    font-size: $section-navigation-path-fs;
+    line-height: 60px;
+
+    .path {
+      margin-right: 5px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      &.bold {
+        .svg-arrow {
+          fill: $main-color;
+        }
+      }
+
+      &.current {
+        color: $black;
+        font-weight: $bold;
+      }
+    }
+
+    .svg-arrow {
+      fill: $paragraph-color;
+      width: 3px;
+      height: 6px;
+    }
+  }
+}
+
+.section-wrap {
+  background-color: $section-bg-color;
+
+  &.dark {
+    background-color: $dark-black;
+  }
+
+  &.gmap {
+    position: relative;
+    background-color: #fbfbfb;
+
+    #map {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+.section, .product-showcase {
+  padding: 100px 0 150px;
+  @include floatfix;
+
+  &.no-title {
+    padding-top: 80px;
+  }
+
+  &.top-short {
+    padding-top: 50px;
+  }
+
+  &.bottom-short {
+    padding-bottom: 110px;
+  }
+
+  &.bottom-shorter {
+    padding-bottom: 70px;
+  }
+
+  &.void {
+    padding: 0;
+  }
+
+  &.bottom-void {
+    padding-bottom: 0;
+  }
+
+  &.form-demo {
+    .form-popup {
+      margin-bottom: 60px;
+    }
+  }
+
+  &.left-aligned {
+    & > .title {
+      text-align: left;
+
+      & + .line-separator {
+        margin: 28px 0 60px;
+      }
+    }
+
+    .pretitle {
+      text-align: left;
+    }
+  }
+
+  & > .title {
+    text-align: center;
+
+    & + .line-separator {
+      margin: 28px auto 60px;
+
+      &.short {
+        margin-bottom: 50px;
+      }
+    }
+  }
+
+  .pretitle {
+    color: $pretitle-color;
+    font-size: $pretitle-fs;
+    text-align: center;
+    font-weight: $bold;
+    margin-bottom: 10px;
+  }
+
+  .section-description {
+    width: 770px;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+.welcome-section-wrap {
+  background-image: url('../img/home/welcome.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+  background-color: $dark-white;
+}
+
+.welcome-section {
+  padding-bottom: 470px;
+}
+
+.features-section {
+  position: relative;
+
+  .bg-decoration {
+    position: absolute;
+    top: 244px;
+    right: -88px;
+  }
+}
+
+// MEDIA QUERIES
+@media screen and (max-width: 1260px) {
+  .features-section {
+    padding-bottom: 100px;
+
+    .bg-decoration {
+      display: none;
+    }
+  }
+
+  .section {
+    &.no-title {
+      padding-top: 40px;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .section {
+    .section-description {
+      width: 90%;
+    }
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .section-navigation {
+    padding-left: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .section, .product-showcase {
+    & > .title {
+      font-size: $title-big-fs;
+      line-height: 1.2;
+    }
+  }
+}
