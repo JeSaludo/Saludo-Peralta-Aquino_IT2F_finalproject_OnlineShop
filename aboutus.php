@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="css/style.min.css">
   <!-- favicon -->
   <link rel="icon" href="favicon.ico">
-  <title>The Trickster | Contact</title>
+  <title>The Trickster | About</title>
 </head>
 <body>
 
@@ -634,7 +634,6 @@
       </div>
       <!-- /CART DROPDOWN WRAP -->
 
-      <!-- MAIN MENU -->
       <ul class="main-menu">
         <!-- MAIN MENU ITEM -->
         <li class="main-menu-item">
@@ -650,67 +649,25 @@
 
         <!-- MAIN MENU ITEM -->
         <li class="main-menu-item">
-          <a href="#">
-            Shop
-            <!-- SVG ARROW -->
-            <svg class="svg-arrow face-down">
-              <use xlink:href="#svg-arrow"></use>
-            </svg>
-            <!-- /SVG ARROW -->
+          <a href="shop-list.html">
+            Shop            
           </a>
 
           <!-- MENU DROPDOWN -->
-          <ul class="menu-dropdown">
+          <ul class="menu-dropdown">           
             <!-- MENU DROPDOWN ITEM -->
             <li class="menu-dropdown-item">
-              <a href="shop-sidebar-grid.html">Sidebar 3 Col Grid</a>
+              <a href="shop-sidebar-list.html">Motherboards</a>
             </li>
-            <!-- /MENU DROPDOWN ITEM -->
-
-            <!-- MENU DROPDOWN ITEM -->
             <li class="menu-dropdown-item">
-              <a href="shop-grid.html">4 Columns Grid</a>
+              <a href="shop-sidebar-list.html">Processors</a>
             </li>
-            <!-- /MENU DROPDOWN ITEM -->
-
-            <!-- MENU DROPDOWN ITEM -->
             <li class="menu-dropdown-item">
-              <a href="shop-sidebar-list.html">Sidebar 3 Col List</a>
+              <a href="shop-sidebar-list.html">Graphic Cards</a>
             </li>
-            <!-- /MENU DROPDOWN ITEM -->
-
-            <!-- MENU DROPDOWN ITEM -->
-            <li class="menu-dropdown-item">
-              <a href="shop-list.html">4 Columns List</a>
+             
             </li>
-            <!-- /MENU DROPDOWN ITEM -->
-
-            <!-- MENU DROPDOWN ITEM -->
-            <li class="menu-dropdown-item">
-              <a href="#">Product Pages</a>
-              <!-- SVG ARROW -->
-              <svg class="svg-arrow tiny">
-                <use xlink:href="#svg-arrow"></use>
-              </svg>
-              <!-- /SVG ARROW -->
-
-              <!-- MENU DROPDOWN -->
-              <ul class="menu-dropdown">
-                <!-- MENU DROPDOWN ITEM -->
-                <li class="menu-dropdown-item">
-                  <a href="product-page-v1.html">Product Page V1</a>
-                </li>
-                <!-- /MENU DROPDOWN ITEM -->
-
-                <!-- MENU DROPDOWN ITEM -->
-                <li class="menu-dropdown-item">
-                  <a href="product-page-v2.html">Product Page V2</a>
-                </li>
-                <!-- /MENU DROPDOWN ITEM -->
-              </ul>
-              <!-- /MENU DROPDOWN -->
-            </li>
-            <!-- /MENU DROPDOWN ITEM -->
+           
           </ul>
           <!-- /MENU DROPDOWN -->
         </li>
@@ -736,139 +693,7 @@
           <!-- CONTENT DROPDOWN -->
           <div class="content-dropdown with-bg">
             <!-- CONTENT DROPDOWN COLUMN -->
-            <div class="content-dropdown-column">
-              <h6 class="title tiny secondary">Main Features</h6>
-              <hr class="line-separator">
-              <!-- LINK LIST -->
-              <ul class="link-list simple">
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="index.html">Trickster Home</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="product-builder-v1.html">Product Builder V1</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="product-builder-v2.html">Product Builder V2</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="blog.html">Trickster Blog</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="post.html">Blog Post</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="contactus.html">Contact Page</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-              </ul>
-              <!-- /LINK LIST -->
-
-              <!-- LINK LIST -->
-              <ul class="link-list simple">
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="404.html">Error Page</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="aboutus.html">About Us</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="menu-dropdowns.html">Menu &amp; DDowns</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="shortcodes.html">Shortcodes</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="login-popup.html">Login Popup</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="ratings-popup.html">Ratings Popup</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-              </ul>
-              <!-- /LINK LIST -->
-            </div>
-            <!-- /CONTENT DROPDOWN COLUMN -->
-
-            <!-- CONTENT DROPDOWN COLUMN -->
-            <div class="content-dropdown-column">
-              <h6 class="title tiny secondary">Shop</h6>
-              <hr class="line-separator">
-              <!-- LINK LIST -->
-              <ul class="link-list simple">
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="shop-sidebar-grid.html">Sidebar 3 Col Grid</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="shop-grid.html">4 Columns Grid</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="shop-sidebar-list.html">Sidebar 3 Col List</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="shop-list.html">4 Columns List</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="product-page-v1.html">Product Page V1</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="product-page-v1.html">Product Page V2</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-              </ul>
-              <!-- /LINK LIST -->
-            </div>
-            <!-- /CONTENT DROPDOWN COLUMN -->
-
-            <!-- CONTENT DROPDOWN COLUMN -->
-            <div class="content-dropdown-column">
+            <div class="content-dropdown-column">           
               <h6 class="title tiny secondary">Account</h6>
               <hr class="line-separator">
               <!-- LINK LIST -->
@@ -959,50 +784,21 @@
       <li class="mobile-menu-item">
         <a href="#" class="dropdown-control">
           Shop
-          <!-- SVG ARROW -->
-          <svg class="svg-arrow medium rotable">
-            <use xlink:href="#svg-arrow"></use>
-          </svg>
-          <!-- /SVG ARROW -->
         </a>
 
         <!-- MOBILE MENU DROPDOWN -->
         <ul class="mobile-menu-dropdown dropdown">
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="shop-sidebar-grid.html">Sidebar 3 Col Grid</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="shop-grid.html">4 Columns Grid</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="shop-sidebar-list.html">Sidebar 3 Col List</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="shop-list.html">4 Columns List</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="product-page-v1.html">Product Page V1</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="product-page-v2.html">Product Page V2</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
+            <li class="mobile-menu-dropdown-item">
+              <a href="shop-sidebar-list.html">Motherboards</a>
+            </li>
+            <li class="mobile-menu-dropdown-item">
+              <a href="shop-sidebar-list.html">Processors</a>
+            </li>
+            <li class="mobile-menu-dropdown-item">
+              <a href="shop-sidebar-list.html">Graphic Cards</a>
+            </li>
         </ul>
         <!-- /MOBILE MENU DROPDOWN -->
       </li>
@@ -1027,115 +823,11 @@
 
         <!-- MOBILE MENU DROPDOWN -->
         <ul class="mobile-menu-dropdown dropdown">
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="index.html">Trickster Home</a>
-          </li>
+          
+         
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="product-builder-v1.html">Product Builder V1</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="product-builder-v2.html">Product Builder V2</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="blog.html">Trickster Blog</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="post.html">Blog Post</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="contactus.html">Contact Page</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="404.html">Error Page</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="aboutus.html">About Us</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="menu-dropdowns.html">Menu &amp; DDowns</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="shortcodes.html">Shortcodes</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="login-popup.html">Login Popup</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="ratings-popup.html">Ratings Popup</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="shop-sidebar-grid.html">Sidebar 3 Col Grid</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="shop-grid.html">4 Columns Grid</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="shop-sidebar-list.html">Sidebar 3 Col List</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="shop-list.html">4 Columns List</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="product-page-v1.html">Product Page V1</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="product-page-v1.html">Product Page V2</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
+         
           <li class="mobile-menu-dropdown-item">
             <a href="identification.html">Identification</a>
           </li>
@@ -1286,7 +978,7 @@
           </svg>
           <!-- /SVG ARROW -->
         </span>
-        <span class="path current">Contact</span>
+        <span class="path current">About Us</span>
       </p>
       <!-- SECTION NAVIGATION PATH -->
     </div>
@@ -1294,100 +986,85 @@
   </div>
   <!-- /SECTION NAVIGATION WRAP -->
 
+  <!-- ABOUTUS BANNER WRAP -->
+  <div class="aboutus-banner-wrap">
+    <div class="aboutus-banner-bg-fill"></div>
+    <!-- ABOUTUS BANNER -->
+    <div class="aboutus-banner">
+      <!-- ABOUTUS BANNER CONTENT -->
+      <div class="aboutus-banner-content">
+        <h6 class="title secondary">We have<br><span class="bold">the best helmets</span></h6>
+        <p class="title">More than 20 Years of Experience</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris nisi ut aliquip ex ea modo consequat. Duis aute irure dolor in reprehenderit in tate velit esse cillum dolore.</p>
+        <a href="#" class="button medium">Search Designs</a>
+      </div>
+      <!-- /ABOUTUS BANNER CONTENT -->
+    </div>
+    <!-- /ABOUTUS BANNER -->
+  </div>
+  <!-- /ABOUTUS BANNER WRAP -->
+
   <!-- SECTION WRAP -->
   <div class="section-wrap">
-    <!-- SECTION -->
-    <div class="section no-title bottom-void">
-      <!-- FEATURE ENUM -->
-      <div class="feature-enum full">
-        <!-- FEATURE ENUM ITEM -->
-        <div class="feature-enum-item">
-          <i class="s-icon icon-location-pin"></i>
-          <h6 class="title">Our Address</h6>
-          <p>568 The Bebop Avenue</p>
-          <p>Los Angeles, CA</p>
-        </div>
-        <!-- FEATURE ENUM ITEM -->
+    <!-- FEATURES SECTION -->
+    <div class="features-section section">
+      <h6 class="pretitle">Look at all the</h6>
+      <h3 class="title large">Helmet Features</h3>
+      <hr class="line-separator short">
 
-        <!-- FEATURE ENUM ITEM -->
-        <div class="feature-enum-item">
-          <i class="s-icon icon-envelope"></i>
-          <h6 class="title">Our Email</h6>
-          <p>
-            <a href="mailto:info@tricksterhelmets.com" class="link medium">info@tricksterhelmets.com</a>
-          </p>
-          <p>
-            <a href="mailto:deliveries@tricksterhelmets.com" class="link medium">deliveries@tricksterhelmets.com</a>
-          </p>
-        </div>
-        <!-- FEATURE ENUM ITEM -->
+      <!-- FEATURE LIST -->
+      <ul class="feature-list big">
+        <!-- FEATURE LIST ITEM -->
+        <li class="feature-list-item">
+          <i class="s-icon icon-energy"></i>
+          <p class="title">Ultra Durability</p>
+          <p>Lorem ipsum dolor sit amet, consecteture ipisicing elit, sed dorem eiusmod tempor incididunt ut labore et dolore.</p>
+        </li>
+        <!-- /FEATURE LIST ITEM -->
 
-        <!-- FEATURE ENUM ITEM -->
-        <div class="feature-enum-item">
-          <i class="s-icon icon-phone"></i>
-          <h6 class="title">Our Phone</h6>
-          <p>Make your phone order to:</p>
-          <p>(044) - 555 - 123 - 1234</p>
-        </div>
-        <!-- FEATURE ENUM ITEM -->
-      </div>
-      <!-- /FEATURE ENUM -->
+        <!-- FEATURE LIST ITEM -->
+        <li class="feature-list-item">
+          <i class="s-icon icon-drop"></i>
+          <p class="title">Water Resistant</p>
+          <p>Lorem ipsum dolor sit amet, consecteture ipisicing elit, sed dorem eiusmod tempor incididunt ut labore et dolore.</p>
+        </li>
+        <!-- /FEATURE LIST ITEM -->
+
+        <!-- FEATURE LIST ITEM -->
+        <li class="feature-list-item">
+          <i class="s-icon icon-star"></i>
+          <p class="title">Super Comfort</p>
+          <p>Lorem ipsum dolor sit amet, consecteture ipisicing elit, sed dorem eiusmod tempor incididunt ut labore et dolore.</p>
+        </li>
+        <!-- /FEATURE LIST ITEM -->
+
+        <!-- FEATURE LIST ITEM -->
+        <li class="feature-list-item">
+          <i class="s-icon icon-rocket"></i>
+          <p class="title">Special Designs</p>
+          <p>Lorem ipsum dolor sit amet, consecteture ipisicing elit, sed dorem eiusmod tempor incididunt ut labore et dolore.</p>
+        </li>
+        <!-- /FEATURE LIST ITEM -->
+
+        <!-- FEATURE LIST ITEM -->
+        <li class="feature-list-item">
+          <i class="s-icon icon-like"></i>
+          <p class="title">Quality Warranty</p>
+          <p>Lorem ipsum dolor sit amet, consecteture ipisicing elit, sed dorem eiusmod tempor incididunt ut labore et dolore.</p>
+        </li>
+        <!-- /FEATURE LIST ITEM -->
+
+        <!-- FEATURE LIST ITEM -->
+        <li class="feature-list-item">
+          <i class="s-icon icon-wrench"></i>
+          <p class="title">Product Builder</p>
+          <p>Lorem ipsum dolor sit amet, consecteture ipisicing elit, sed dorem eiusmod tempor incididunt ut labore et dolore.</p>
+        </li>
+        <!-- /FEATURE LIST ITEM -->
+      </ul>
+      <!-- /FEATURE LIST -->
     </div>
-    <!-- /SECTION -->
-  </div>
-  <!-- /SECTION WRAP -->
-
-  <!-- SECTION WRAP -->
-  <div class="section-wrap gmap">
-    <!-- SECTION -->
-    <div class="section void">
-      <!-- CONTACT ACTIONS -->
-      <div class="contact-actions">
-        <!-- CONTACT FORM -->
-        <div class="contact-form">
-          <h2 class="subsection-title">Send Us a Message</h2>
-          <hr class="line-separator">
-          <!-- FORM -->
-          <form>
-            <!-- FORM ROW -->
-            <div class="form-row">
-              <div class="half">
-                <label for="c_name" class="rl-label">Name</label>
-                <input type="text" id="c_name" name="c_name" placeholder="Enter your name here...">
-              </div>
-              <div class="half">
-                <label for="c_email" class="rl-label">Email</label>
-                <input type="text" id="c_email" name="c_email" placeholder="Enter your email here...">
-              </div>
-            </div>
-            <!-- /FORM ROW -->
-
-            <!-- FORM ROW -->
-            <div class="form-row">
-              <label for="c_comment" class="rl-label">Message</label>
-              <textarea id="c_comment" name="c_comment" placeholder="Write your message here..."></textarea>
-            </div>
-            <!-- /FORM ROW -->
-
-            <!-- FORM ROW -->
-            <div class="form-row separated">
-              <button class="button">Send your Message</button>
-            </div>
-            <!-- /FORM ROW -->
-          </form>
-          <!-- /FORM -->
-        </div>
-        <!-- /CONTACT FORM -->
-      </div>
-      <!-- /CONTACT ACTIONS -->
-    </div>
-    <!-- /SECTION -->
-
-    <!-- CONTACT MAP -->
-    <div class="contact-map">
-      <div id="map"></div>
-    </div>
-    <!-- /CONTACT MAP -->
+    <!-- /FEATURES SECTION -->
   </div>
   <!-- /SECTION WRAP -->
 
@@ -1899,198 +1576,5 @@
 <script src="js/dropdowns.js"></script>
 <!-- popups -->
 <script src="js/popups.js"></script>
-<script>
-  function initMap() {
-    var map = new google.maps.Map(document.getElementById('map'), {
-      zoom: 16,
-      center: {lat: 40.7583818, lng: -73.9902694},
-      mapTypeControl: false,
-      zoomControl: false,
-      scrollwheel: false,
-      scaleControl: false,
-      streetViewControl: false,
-      fullscreenControl: false,
-      styles: [
-        {
-          "elementType": "geometry",
-          "stylers": [
-            {
-              "color": "#f5f5f5"
-            }
-          ]
-        },
-        {
-          "elementType": "labels.icon",
-          "stylers": [
-            {
-              "visibility": "off"
-            }
-          ]
-        },
-        {
-          "elementType": "labels.text.fill",
-          "stylers": [
-            {
-              "color": "#616161"
-            }
-          ]
-        },
-        {
-          "elementType": "labels.text.stroke",
-          "stylers": [
-            {
-              "color": "#f5f5f5"
-            }
-          ]
-        },
-        {
-          "featureType": "administrative.land_parcel",
-          "elementType": "labels.text.fill",
-          "stylers": [
-            {
-              "color": "#bdbdbd"
-            }
-          ]
-        },
-        {
-          "featureType": "poi",
-          "elementType": "geometry",
-          "stylers": [
-            {
-              "color": "#eeeeee"
-            }
-          ]
-        },
-        {
-          "featureType": "poi",
-          "elementType": "labels.text.fill",
-          "stylers": [
-            {
-              "color": "#757575"
-            }
-          ]
-        },
-        {
-          "featureType": "poi.park",
-          "elementType": "geometry",
-          "stylers": [
-            {
-              "color": "#e5e5e5"
-            }
-          ]
-        },
-        {
-          "featureType": "poi.park",
-          "elementType": "labels.text.fill",
-          "stylers": [
-            {
-              "color": "#9e9e9e"
-            }
-          ]
-        },
-        {
-          "featureType": "road",
-          "elementType": "geometry",
-          "stylers": [
-            {
-              "color": "#ffffff"
-            }
-          ]
-        },
-        {
-          "featureType": "road.arterial",
-          "elementType": "labels.text.fill",
-          "stylers": [
-            {
-              "color": "#757575"
-            }
-          ]
-        },
-        {
-          "featureType": "road.highway",
-          "elementType": "geometry",
-          "stylers": [
-            {
-              "color": "#dadada"
-            }
-          ]
-        },
-        {
-          "featureType": "road.highway",
-          "elementType": "labels.text.fill",
-          "stylers": [
-            {
-              "color": "#616161"
-            }
-          ]
-        },
-        {
-          "featureType": "road.local",
-          "elementType": "labels.text.fill",
-          "stylers": [
-            {
-              "color": "#9e9e9e"
-            }
-          ]
-        },
-        {
-          "featureType": "transit.line",
-          "elementType": "geometry",
-          "stylers": [
-            {
-              "color": "#e5e5e5"
-            }
-          ]
-        },
-        {
-          "featureType": "transit.station",
-          "elementType": "geometry",
-          "stylers": [
-            {
-              "color": "#eeeeee"
-            }
-          ]
-        },
-        {
-          "featureType": "water",
-          "elementType": "geometry",
-          "stylers": [
-            {
-              "color": "#c9c9c9"
-            }
-          ]
-        },
-        {
-          "featureType": "water",
-          "elementType": "labels.text.fill",
-          "stylers": [
-            {
-              "color": "#9e9e9e"
-            }
-          ]
-        }
-      ]
-    }),
-    marker = new google.maps.Marker({
-      position: {lat: 40.7583818, lng: -73.9902694},
-      map: map,
-      icon: 'img/map-marker.png',
-      animation: google.maps.Animation.DROP,
-      title: 'Hello World!'
-    });
-
-    marker.addListener('click', toggleBounce);
-    function toggleBounce() {
-      if (marker.getAnimation() !== null) {
-        marker.setAnimation(null);
-      } else {
-        marker.setAnimation(google.maps.Animation.BOUNCE);
-      }
-    }
-  }
-</script>
-<script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBj6exYCo13nQJPXbGSlggFoqCTX3TqRP8&callback=initMap">
-    </script>
 </body>
 </html>

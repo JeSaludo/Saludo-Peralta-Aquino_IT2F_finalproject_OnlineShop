@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="css/style.min.css">
   <!-- favicon -->
   <link rel="icon" href="favicon.ico">
-  <title>The Trickster | Home</title>
+  <title>The Trickster | Contact</title>
 </head>
 <body>
 
@@ -650,13 +650,12 @@
 
         <!-- MAIN MENU ITEM -->
         <li class="main-menu-item">
-          <a href="shop-list.html">
-            Shop            
-          </a>
+          <a href="#">
+            Shop
+           </a>
 
           <!-- MENU DROPDOWN -->
-          <ul class="menu-dropdown">           
-            <!-- MENU DROPDOWN ITEM -->
+          <ul class="menu-dropdown">
             <li class="menu-dropdown-item">
               <a href="shop-sidebar-list.html">Motherboards</a>
             </li>
@@ -666,9 +665,10 @@
             <li class="menu-dropdown-item">
               <a href="shop-sidebar-list.html">Graphic Cards</a>
             </li>
-             
+              
+              <!-- /MENU DROPDOWN -->
             </li>
-           
+            <!-- /MENU DROPDOWN ITEM -->
           </ul>
           <!-- /MENU DROPDOWN -->
         </li>
@@ -694,7 +694,8 @@
           <!-- CONTENT DROPDOWN -->
           <div class="content-dropdown with-bg">
             <!-- CONTENT DROPDOWN COLUMN -->
-           
+            <div class="content-dropdown-column">
+              
             <!-- CONTENT DROPDOWN COLUMN -->
             <div class="content-dropdown-column">
               <h6 class="title tiny secondary">Account</h6>
@@ -790,8 +791,8 @@
         </a>
 
         <!-- MOBILE MENU DROPDOWN -->
-        <ul class="mobile-menu-dropdown dropdown">         
-          
+        <ul class="mobile-menu-dropdown dropdown">
+          <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
             <a href="shop-sidebar-list.html">Motherboards</a>
           </li>
@@ -801,7 +802,6 @@
           <li class="mobile-menu-dropdown-item">
             <a href="shop-sidebar-list.html">Graphic Cards</a>
           </li>
-          
         </ul>
         <!-- /MOBILE MENU DROPDOWN -->
       </li>
@@ -826,11 +826,6 @@
 
         <!-- MOBILE MENU DROPDOWN -->
         <ul class="mobile-menu-dropdown dropdown">
-          
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="aboutus.html">About Us</a>
-          </li>
           
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
@@ -915,13 +910,13 @@
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li data-language="spa" class="mobile-menu-dropdown-item language-option">
-            <a href="#">eu</a>
+            <a href="#">spa</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
 
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li data-language="ger" class="mobile-menu-dropdown-item language-option">
-            <a href="#">spa</a>
+            <a href="#">ger</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
         </ul>
@@ -953,8 +948,6 @@
           <li data-currency="euro" class="mobile-menu-dropdown-item currency-option">
             <a href="#">euro</a>
           </li>
-
-          
           <!-- /MOBILE MENU DROPDOWN ITEM -->
         </ul>
         <!-- /MOBILE MENU DROPDOWN -->
@@ -971,876 +964,124 @@
   </div>
   <!-- /MOBILE MENU WRAP -->
 
-  <!-- MAIN SLIDER -->
-  <div class="main-slider">
-    <!-- SLIDER CONTROLS -->
-    <div class="slider-controls">
-      <!-- SLIDER CONTROL -->
-      <div class="slider-control"></div>
-      <!-- SLIDER CONTROL -->
-
-      <!-- SLIDER CONTROL -->
-      <div class="slider-control"></div>
-      <!-- SLIDER CONTROL -->
-
-      <!-- SLIDER CONTROL -->
-      <div class="slider-control"></div>
-      <!-- SLIDER CONTROL -->
-    </div>
-    <!-- /SLIDER CONTROLS -->
-
-    <!-- SLIDE LIST -->
-    <div class="slide-list">
-      <!-- SLIDE -->
-      <div class="slide slide-1">
-        <!-- SLIDE CONTENT WRAP -->
-        <div class="slide-content-wrap">
-          <!-- SLIDE CONTENT -->
-          <div class="slide-content">
-            <h2 class="banner-title tiny">The Trickster</h2>
-            <h2 class="banner-title">Custom Helmets</h2>
-            <h2 class="banner-title micro">You have thousands of possibilities to choose from!</h2>
-          </div>
-          <!-- SLIDE CONTENT -->
-        </div>
-        <!-- SLIDE CONTENT WRAP -->
-      </div>
-      <!-- SLIDE -->
-
-      <!-- SLIDE -->
-      <div class="slide slide-2">
-        <!-- SLIDE CONTENT WRAP -->
-        <div class="slide-content-wrap">
-          <!-- SLIDE CONTENT -->
-          <div class="slide-content">
-            <h2 class="banner-title small">We have</h2>
-            <h2 class="banner-title"><span class="highlighted">Incredible</span></h2>
-            <h2 class="banner-title">Designs</h2>
-            <h2 class="banner-title micro">Thousands of helmets to choose from!</h2>
-            <a href="#" class="button">Browse Popular</a>
-          </div>
-          <!-- SLIDE CONTENT -->
-        </div>
-        <!-- SLIDE CONTENT WRAP -->
-      </div>
-      <!-- SLIDE -->
-
-      <!-- SLIDE -->
-      <div class="slide slide-3">
-        <!-- SLIDE CONTENT WRAP -->
-        <div class="slide-content-wrap">
-          <!-- SLIDE CONTENT -->
-          <div class="slide-content">
-            <h2 class="banner-title dark large">Customize</h2>
-            <h2 class="banner-title main medium">Your Helmet</h2>
-            <h2 class="banner-title micro light">Millions of different posibilities!</h2>
-            <a href="#" class="button">Build your helmet!</a>
-          </div>
-          <!-- SLIDE CONTENT -->
-        </div>
-        <!-- SLIDE CONTENT WRAP -->
-      </div>
-      <!-- SLIDE -->
-    </div>
-    <!-- /SLIDE LIST -->
-  </div>
-  <!-- /MAIN SLIDER -->
-
-  <!-- BUILDER ACTIONS -->
-  <div class="builder-actions column-full-3-wrap">
-    <!-- BUILDER ACTIONS ITEM WRAP -->
-    <div class="builder-actions-item-wrap column">
-      <!-- BUILDER ACTIONS ITEM -->
-      <div class="builder-actions-item">
-        <img src="img/home/start01.png" alt="start01">
-        <h6 class="title">Model Adamant-X</h6>
-        <p>Durability and Comfort</p>
-        <a href="product-builder-v1.html" class="button small">Start Building</a>
-      </div>
-      <!-- /BUILDER ACTIONS ITEM -->
-    </div>
-    <!-- /BUILDER ACTIONS ITEM WRAP -->
-
-    <!-- BUILDER ACTIONS ITEM WRAP -->
-    <div class="builder-actions-item-wrap column">
-      <!-- BUILDER ACTIONS ITEM -->
-      <div class="builder-actions-item">
-        <img src="img/home/start02.png" alt="start02">
-        <h6 class="title">Model Feral-XTRM</h6>
-        <p>For Extreme Conditions</p>
-        <a href="product-builder-v2.html" class="button small">Start Building</a>
-      </div>
-      <!-- /BUILDER ACTIONS ITEM -->
-    </div>
-    <!-- /BUILDER ACTIONS ITEM WRAP -->
-
-    <!-- BUILDER ACTIONS ITEM WRAP -->
-    <div class="builder-actions-item-wrap column">
-      <!-- BUILDER ACTIONS ITEM -->
-      <div class="builder-actions-item">
-        <img src="img/home/start03.png" alt="start03">
-        <h6 class="title">Browse all Designs</h6>
-        <p>Handpicked Designs</p>
-        <a href="shop-grid.html" class="button small">Start Building</a>
-      </div>
-      <!-- /BUILDER ACTIONS ITEM -->
-    </div>
-    <!-- /BUILDER ACTIONS ITEM WRAP -->
-  </div>
-  <!-- /BUILDER ACTIONS -->
-
-  <!-- SECTION WRAP -->
-  <div class="section-wrap welcome-section-wrap">
-    <!-- WELCOME SECTION -->
-    <div class="welcome-section section">
-      <h6 class="pretitle">Multipurpouse Product Builder</h6>
-      <h3 class="title large">Welcome to the Trickster!</h3>
-      <hr class="line-separator short">
-      <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris nisi ut aliquip ex ea modo consequat. Duis aute irure dolor in reprehenderit in tate velit esse cillum dolore.</p>
-    </div>
-    <!-- /WELCOME SECTION -->
-  </div>
-  <!-- /SECTION WRAP -->
-
-  <!-- ACTION POSTER WRAP -->
-  <div class="action-poster-wrap">
-    <!-- ACTION POSTER -->
-    <div class="action-poster">
-      <!-- ACTION POSTER INFO -->
-      <div class="action-poster-info">
-        <h3 class="title">Check our <span class="bold">Crafted Items</span></h3>
-        <p>Carefully Designed by Expert Artists</p>
-      </div>
-      <!-- /ACTION POSTER INFO -->
-
-      <a href="#" class="button medium with-icon">
-        Start Browsing
-        <!-- SVG ARROW -->
-        <svg class="svg-arrow">
-          <use xlink:href="#svg-arrow"></use>
-        </svg>
-        <!-- /SVG ARROW -->
-      </a>
-    </div>
-    <!-- /ACTION POSTER -->
-  </div>
-  <!-- /ACTION POSTER WRAP -->
-
-  <!-- SECTION WRAP -->
-  <div class="section-wrap">
-    <!-- FEATURES SECTION -->
-    <div class="features-section section">
-      <h6 class="pretitle">Take a Peek to the</h6>
-      <h3 class="title large">Helmet Features</h3>
-      <hr class="line-separator">
-      <!-- BG DECORATION -->
-      <img src="img/home/features.png" alt="features" class="bg-decoration">
-
-      <!-- FEATURE LIST -->
-      <ul class="feature-list small">
-        <!-- FEATURE LIST ITEM -->
-        <li class="feature-list-item">
-          <!-- SVG CHECK -->
-          <svg class="svg-check medium">
-            <use xlink:href="#svg-check"></use>
+  <!-- SECTION NAVIGATION WRAP -->
+  <div class="section-navigation-wrap">
+    <!-- SECTION NAVIGATION -->
+    <div class="section-navigation">
+      <!-- SECTION NAVIGATION PATH -->
+      <p class="section-navigation-path">
+        <span class="path">Home</span>
+        <span class="path bold">
+          <!-- SVG ARROW -->
+          <svg class="svg-arrow tiny">
+            <use xlink:href="#svg-arrow"></use>
           </svg>
-          <!-- /SVG CHECK -->
-          <p class="title">Ultra Durability</p>
-          <p>Lorem ipsum dolor sit amet, consecteture ipisicing elit, sed dorem eiusmod tempor incididunt ut labore et dolore.</p>
-        </li>
-        <!-- /FEATURE LIST ITEM -->
-
-        <!-- FEATURE LIST ITEM -->
-        <li class="feature-list-item">
-          <!-- SVG CHECK -->
-          <svg class="svg-check medium">
-            <use xlink:href="#svg-check"></use>
-          </svg>
-          <!-- /SVG CHECK -->
-          <p class="title">Water Resistant</p>
-          <p>Lorem ipsum dolor sit amet, consecteture ipisicing elit, sed dorem eiusmod tempor incididunt ut labore et dolore.</p>
-        </li>
-        <!-- /FEATURE LIST ITEM -->
-
-        <!-- FEATURE LIST ITEM -->
-        <li class="feature-list-item">
-          <!-- SVG CHECK -->
-          <svg class="svg-check medium">
-            <use xlink:href="#svg-check"></use>
-          </svg>
-          <!-- /SVG CHECK -->
-          <p class="title">Super Comfort</p>
-          <p>Lorem ipsum dolor sit amet, consecteture ipisicing elit, sed dorem eiusmod tempor incididunt ut labore et dolore.</p>
-        </li>
-        <!-- /FEATURE LIST ITEM -->
-
-        <!-- FEATURE LIST ITEM -->
-        <li class="feature-list-item">
-          <!-- SVG CHECK -->
-          <svg class="svg-check medium">
-            <use xlink:href="#svg-check"></use>
-          </svg>
-          <!-- /SVG CHECK -->
-          <p class="title">Special Designs</p>
-          <p>Lorem ipsum dolor sit amet, consecteture ipisicing elit, sed dorem eiusmod tempor incididunt ut labore et dolore.</p>
-        </li>
-        <!-- /FEATURE LIST ITEM -->
-      </ul>
-      <!-- /FEATURE LIST -->
+          <!-- /SVG ARROW -->
+        </span>
+        <span class="path current">Contact</span>
+      </p>
+      <!-- SECTION NAVIGATION PATH -->
     </div>
-    <!-- /FEATURES SECTION -->
+    <!-- /SECTION NAVIGATION -->
   </div>
-  <!-- /SECTION WRAP -->
-
-  <!-- SERVICE BANNERS -->
-  <div class="service-banners">
-    <!-- SERVICE BANNER -->
-    <div class="service-banner main">
-      <!-- SERVICE BANNER CONTENT -->
-      <div class="service-banner-content">
-        <i class="icon-badge s-icon"></i>
-        <h5 class="title medium">Best Quality</h5>
-        <h3 class="title big">Products</h3>
-        <hr class="line-separator big">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
-      </div>
-      <!-- /SERVICE BANNER CONTENT -->
-    </div>
-    <!-- /SERVICE BANNER -->
-
-    <!-- SERVICE BANNER -->
-    <div class="service-banner secondary">
-      <!-- SERVICE BANNER CONTENT -->
-      <div class="service-banner-content">
-        <i class="icon-like s-icon"></i>
-        <h5 class="title medium">One Year</h5>
-        <h3 class="title big">Guarantee</h3>
-        <hr class="line-separator big">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
-      </div>
-      <!-- /SERVICE BANNER CONTENT -->
-    </div>
-    <!-- /SERVICE BANNER -->
-
-    <!-- SERVICE BANNER -->
-    <div class="service-banner tertiary">
-      <!-- SERVICE BANNER CONTENT -->
-      <div class="service-banner-content">
-        <i class="icon-rocket s-icon"></i>
-        <h5 class="title medium">Worldwide</h5>
-        <h3 class="title big">Shipping</h3>
-        <hr class="line-separator big">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
-      </div>
-      <!-- /SERVICE BANNER CONTENT -->
-    </div>
-    <!-- /SERVICE BANNER -->
-  </div>
-  <!-- /SERVICE BANNERS -->
+  <!-- /SECTION NAVIGATION WRAP -->
 
   <!-- SECTION WRAP -->
   <div class="section-wrap">
     <!-- SECTION -->
-    <div class="section">
-      <!-- STEP LIST -->
-      <div class="step-list">
-        <!-- STEP LIST ITEM -->
-        <div class="step-list-item left">
-          <div class="step-list-item-info">
-            <h6 class="title medium"><span class="bold">01.</span></h6>
-            <h6 class="title large">Choose the<br>Helmet Model</h6>
-            <h6 class="title small">Starting the building process</h6>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris nisi ut aliquip ex ea modo consequat. Duis aute irure dolor in reprehenderit in tate velit esse cillum dolore.</p>
-          </div>
-          <img src="img/home/step01.png" alt="step01" class="step-list-item-img">
+    <div class="section no-title bottom-void">
+      <!-- FEATURE ENUM -->
+      <div class="feature-enum full">
+        <!-- FEATURE ENUM ITEM -->
+        <div class="feature-enum-item">
+          <i class="s-icon icon-location-pin"></i>
+          <h6 class="title">Our Address</h6>
+          <p>568 The Bebop Avenue</p>
+          <p>Los Angeles, CA</p>
         </div>
-        <!-- /STEP LIST ITEM -->
+        <!-- FEATURE ENUM ITEM -->
 
-        <!-- STEP LIST ITEM -->
-        <div class="step-list-item right">
-          <div class="step-list-item-info">
-            <h6 class="title medium"><span class="bold">02.</span></h6>
-            <h6 class="title large">Customize<br>your Helmet</h6>
-            <h6 class="title small">Give your style to the product</h6>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris nisi ut aliquip ex ea modo consequat. Duis aute irure dolor in reprehenderit in tate velit esse cillum dolore en repentum der lorem.</p>
-          </div>
-          <img src="img/home/step02.png" alt="step02" class="step-list-item-img">
+        <!-- FEATURE ENUM ITEM -->
+        <div class="feature-enum-item">
+          <i class="s-icon icon-envelope"></i>
+          <h6 class="title">Our Email</h6>
+          <p>
+            <a href="mailto:info@tricksterhelmets.com" class="link medium">info@tricksterhelmets.com</a>
+          </p>
+          <p>
+            <a href="mailto:deliveries@tricksterhelmets.com" class="link medium">deliveries@tricksterhelmets.com</a>
+          </p>
         </div>
-        <!-- /STEP LIST ITEM -->
+        <!-- FEATURE ENUM ITEM -->
 
-        <!-- STEP LIST ITEM -->
-        <div class="step-list-item left">
-          <div class="step-list-item-info">
-            <h6 class="title medium"><span class="bold">03.</span></h6>
-            <h6 class="title large">Confirm and<br>add to the Cart</h6>
-            <h6 class="title small">Finishing the purchase</h6>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris nisi ut aliquip ex ea modo consequat. Duis aute irure dolor in reprehenderit in tate velit esse cillum dolore.</p>
-          </div>
-          <img src="img/home/step03.png" alt="step03" class="step-list-item-img">
+        <!-- FEATURE ENUM ITEM -->
+        <div class="feature-enum-item">
+          <i class="s-icon icon-phone"></i>
+          <h6 class="title">Our Phone</h6>
+          <p>Make your phone order to:</p>
+          <p>(044) - 555 - 123 - 1234</p>
         </div>
-        <!-- /STEP LIST ITEM -->
+        <!-- FEATURE ENUM ITEM -->
       </div>
-      <!-- /STEP LIST -->
+      <!-- /FEATURE ENUM -->
     </div>
     <!-- /SECTION -->
   </div>
   <!-- /SECTION WRAP -->
 
-  <!-- PROMO BANNERS -->
-  <div class="promo-banners">
-    <!-- PROMO BANNER -->
-    <div class="promo-banner main">
-      <!-- PROMO BANNER TITLE WRAP -->
-      <div class="promo-banner-title-wrap">
-        <h3 class="title title-promo composed">25</h3>
-        <h3 class="title title-percent">%<br><span class="title-unit">off</span></h3>
-        <h3 class="title title-extra">Custom <br>Helmets</h3>
-      </div>
-      <!-- PROMO BANNER TITLE WRAP -->
-
-      <h6 class="title title-description">Redeeming this code: CPN8F529</h6>
-      <p>* code valid untill 08/12/2015 only for custom products</p>
-      <a href="#" class="button medium dark">Build yours now!</a>
-    </div>
-    <!-- /PROMO BANNER -->
-
-    <!-- PROMO BANNER -->
-    <div class="promo-banner dark">
-      <!-- PROMO BANNER TITLE WRAP -->
-      <div class="promo-banner-title-wrap">
-        <h3 class="title title-promo simple"><span class="bold">Sale</span></h3>
-        <h3 class="title title-extra">Black <br>Friday</h3>
-      </div>
-      <!-- PROMO BANNER TITLE WRAP -->
-
-      <h6 class="title title-description">Amazing discounts all day long!</h6>
-      <p>* discount valid untill 08/12/2015</p>
-      <a href="#" class="button medium with-icon">
-        Check all deals
-        <!-- SVG ARROW -->
-        <svg class="svg-arrow">
-          <use xlink:href="#svg-arrow"></use>
-        </svg>
-        <!-- /SVG ARROW -->
-      </a>
-    </div>
-    <!-- /PROMO BANNER -->
-  </div>
-  <!-- /PROMO BANNERS -->
-
   <!-- SECTION WRAP -->
-  <div class="section-wrap">
+  <div class="section-wrap gmap">
     <!-- SECTION -->
-    <div class="section bottom-short">
-      <h6 class="pretitle">The Trickster</h6>
-      <h3 class="title large">Latest Arrivals</h3>
-      <hr class="line-separator">
-
-      <!-- PRODUCT LIST -->
-      <div class="product-list column-4-wrap">
-        <!-- PRODUCT LIST ITEM -->
-        <div class="product-list-item column">
-          <!-- PRODUCT LIST ITEM PREVIEW -->
-          <div class="product-list-item-preview">
-            <!-- PRODUCT IMG -->
-            <figure class="product-img">
-              <img src="img/products/01.jpg" alt="product01">
-            </figure>
-            <!-- /PRODUCT IMG -->
-
-            <!-- PRODUCT LIST ITEM ACTIONS -->
-            <div class="product-list-item-actions">
-              <!-- BUTTON LIST -->
-              <div class="button-list wrap-4">
-                <!-- BUTTON -->
-                <a href="#" class="button square">
-                  <!-- SVG CART -->
-                  <svg class="svg-cart-small">
-                    <use xlink:href="#svg-cart-small"></use>
-                  </svg>
-                  <!-- /SVG CART -->
-                </a>
-                <!-- /BUTTON -->
-
-                <!-- BUTTON -->
-                <a href="#" class="button square">
-                  <!-- SVG HEART -->
-                  <svg class="svg-heart">
-                    <use xlink:href="#svg-heart"></use>
-                  </svg>
-                  <!-- /SVG HEART -->
-                </a>
-                <!-- /BUTTON -->
-
-                <!-- BUTTON -->
-                <a href="#" class="button square">
-                  <i class="fa fa-facebook"></i>
-                </a>
-                <!-- /BUTTON -->
-
-                <!-- BUTTON -->
-                <a href="#" class="button square">
-                  <i class="fa fa-twitter"></i>
-                </a>
-                <!-- /BUTTON -->
+    <div class="section void">
+      <!-- CONTACT ACTIONS -->
+      <div class="contact-actions">
+        <!-- CONTACT FORM -->
+        <div class="contact-form">
+          <h2 class="subsection-title">Send Us a Message</h2>
+          <hr class="line-separator">
+          <!-- FORM -->
+          <form>
+            <!-- FORM ROW -->
+            <div class="form-row">
+              <div class="half">
+                <label for="c_name" class="rl-label">Name</label>
+                <input type="text" id="c_name" name="c_name" placeholder="Enter your name here...">
               </div>
-              <!-- /BUTTON LIST -->
-            </div>
-            <!-- /PRODUCT LIST ITEM ACTIONS -->
-          </div>
-          <!-- /PRODUCT LIST ITEM PREVIEW -->
-
-          <!-- PRODUCT LIST ITEM INFO -->
-          <div class="product-list-item-info">
-            <a href="product-page-v1.html"><h6 class="title">The Golden Eagle</h6></a>
-            <p class="product-description">For Extreme Conditions</p>
-            <!-- PRODUCT LIST ITEM PRICE -->
-            <div class="product-list-item-price">
-              <!-- RATING -->
-              <ul class="rating">
-                <!-- RATING ITEM -->
-                <li class="rating-item filled">
-                  <!-- SVG STAR -->
-                  <svg class="svg-star">
-                    <use xlink:href="#svg-star"></use>
-                  </svg>
-                  <!-- /SVG STAR -->
-                </li>
-                <!-- /RATING ITEM -->
-
-                <!-- RATING ITEM -->
-                <li class="rating-item filled">
-                  <!-- SVG STAR -->
-                  <svg class="svg-star">
-                    <use xlink:href="#svg-star"></use>
-                  </svg>
-                  <!-- /SVG STAR -->
-                </li>
-                <!-- /RATING ITEM -->
-
-                <!-- RATING ITEM -->
-                <li class="rating-item filled">
-                  <!-- SVG STAR -->
-                  <svg class="svg-star">
-                    <use xlink:href="#svg-star"></use>
-                  </svg>
-                  <!-- /SVG STAR -->
-                </li>
-                <!-- /RATING ITEM -->
-
-                <!-- RATING ITEM -->
-                <li class="rating-item filled">
-                  <!-- SVG STAR -->
-                  <svg class="svg-star">
-                    <use xlink:href="#svg-star"></use>
-                  </svg>
-                  <!-- /SVG STAR -->
-                </li>
-                <!-- /RATING ITEM -->
-
-                <!-- RATING ITEM -->
-                <li class="rating-item">
-                  <!-- SVG STAR -->
-                  <svg class="svg-star">
-                    <use xlink:href="#svg-star"></use>
-                  </svg>
-                  <!-- /SVG STAR -->
-                </li>
-                <!-- /RATING ITEM -->
-              </ul>
-              <!-- /RATING -->
-              <h6 class="product-price">$140</h6>
-            </div>
-            <!-- /PRODUCT LIST ITEM PRICE -->
-          </div>
-          <!-- /PRODUCT LIST ITEM INFO -->
-        </div>
-        <!-- /PRODUCT LIST ITEM -->
-
-        <!-- PRODUCT LIST ITEM -->
-        <div class="product-list-item column">
-          <!-- PRODUCT LIST ITEM PREVIEW -->
-          <div class="product-list-item-preview">
-            <!-- PRODUCT IMG -->
-            <figure class="product-img">
-              <img src="img/products/02.jpg" alt="product02">
-            </figure>
-            <!-- /PRODUCT IMG -->
-
-            <!-- PRODUCT LIST ITEM ACTIONS -->
-            <div class="product-list-item-actions">
-              <!-- BUTTON LIST -->
-              <div class="button-list wrap-4">
-                <!-- BUTTON -->
-                <a href="#" class="button square">
-                  <!-- SVG CART -->
-                  <svg class="svg-cart-small">
-                    <use xlink:href="#svg-cart-small"></use>
-                  </svg>
-                  <!-- /SVG CART -->
-                </a>
-                <!-- /BUTTON -->
-
-                <!-- BUTTON -->
-                <a href="#" class="button square">
-                  <!-- SVG HEART -->
-                  <svg class="svg-heart">
-                    <use xlink:href="#svg-heart"></use>
-                  </svg>
-                  <!-- /SVG HEART -->
-                </a>
-                <!-- /BUTTON -->
-
-                <!-- BUTTON -->
-                <a href="#" class="button square">
-                  <i class="fa fa-facebook"></i>
-                </a>
-                <!-- /BUTTON -->
-
-                <!-- BUTTON -->
-                <a href="#" class="button square">
-                  <i class="fa fa-twitter"></i>
-                </a>
-                <!-- /BUTTON -->
+              <div class="half">
+                <label for="c_email" class="rl-label">Email</label>
+                <input type="text" id="c_email" name="c_email" placeholder="Enter your email here...">
               </div>
-              <!-- /BUTTON LIST -->
             </div>
-            <!-- /PRODUCT LIST ITEM ACTIONS -->
-          </div>
-          <!-- /PRODUCT LIST ITEM PREVIEW -->
+            <!-- /FORM ROW -->
 
-          <!-- PRODUCT LIST ITEM INFO -->
-          <div class="product-list-item-info">
-            <a href="product-page-v1.html"><h6 class="title">Poisonous Frog</h6></a>
-            <p class="product-description">For Outdoor Sports</p>
-            <!-- PRODUCT LIST ITEM PRICE -->
-            <div class="product-list-item-price">
-              <!-- RATING -->
-              <ul class="rating">
-                <!-- RATING ITEM -->
-                <li class="rating-item filled">
-                  <!-- SVG STAR -->
-                  <svg class="svg-star">
-                    <use xlink:href="#svg-star"></use>
-                  </svg>
-                  <!-- /SVG STAR -->
-                </li>
-                <!-- /RATING ITEM -->
-
-                <!-- RATING ITEM -->
-                <li class="rating-item filled">
-                  <!-- SVG STAR -->
-                  <svg class="svg-star">
-                    <use xlink:href="#svg-star"></use>
-                  </svg>
-                  <!-- /SVG STAR -->
-                </li>
-                <!-- /RATING ITEM -->
-
-                <!-- RATING ITEM -->
-                <li class="rating-item filled">
-                  <!-- SVG STAR -->
-                  <svg class="svg-star">
-                    <use xlink:href="#svg-star"></use>
-                  </svg>
-                  <!-- /SVG STAR -->
-                </li>
-                <!-- /RATING ITEM -->
-
-                <!-- RATING ITEM -->
-                <li class="rating-item filled">
-                  <!-- SVG STAR -->
-                  <svg class="svg-star">
-                    <use xlink:href="#svg-star"></use>
-                  </svg>
-                  <!-- /SVG STAR -->
-                </li>
-                <!-- /RATING ITEM -->
-
-                <!-- RATING ITEM -->
-                <li class="rating-item filled">
-                  <!-- SVG STAR -->
-                  <svg class="svg-star">
-                    <use xlink:href="#svg-star"></use>
-                  </svg>
-                  <!-- /SVG STAR -->
-                </li>
-                <!-- /RATING ITEM -->
-              </ul>
-              <!-- /RATING -->
-              <h6 class="product-price">$170</h6>
+            <!-- FORM ROW -->
+            <div class="form-row">
+              <label for="c_comment" class="rl-label">Message</label>
+              <textarea id="c_comment" name="c_comment" placeholder="Write your message here..."></textarea>
             </div>
-            <!-- /PRODUCT LIST ITEM PRICE -->
-          </div>
-          <!-- /PRODUCT LIST ITEM INFO -->
+            <!-- /FORM ROW -->
+
+            <!-- FORM ROW -->
+            <div class="form-row separated">
+              <button class="button">Send your Message</button>
+            </div>
+            <!-- /FORM ROW -->
+          </form>
+          <!-- /FORM -->
         </div>
-        <!-- /PRODUCT LIST ITEM -->
-
-        <!-- PRODUCT LIST ITEM -->
-        <div class="product-list-item column">
-          <!-- PRODUCT LIST ITEM PREVIEW -->
-          <div class="product-list-item-preview">
-            <!-- PRODUCT IMG -->
-            <figure class="product-img">
-              <img src="img/products/03.jpg" alt="product03">
-            </figure>
-            <!-- /PRODUCT IMG -->
-
-            <!-- PRODUCT LIST ITEM ACTIONS -->
-            <div class="product-list-item-actions">
-              <!-- BUTTON LIST -->
-              <div class="button-list wrap-4">
-                <!-- BUTTON -->
-                <a href="#" class="button square">
-                  <!-- SVG CART -->
-                  <svg class="svg-cart-small">
-                    <use xlink:href="#svg-cart-small"></use>
-                  </svg>
-                  <!-- /SVG CART -->
-                </a>
-                <!-- /BUTTON -->
-
-                <!-- BUTTON -->
-                <a href="#" class="button square">
-                  <!-- SVG HEART -->
-                  <svg class="svg-heart">
-                    <use xlink:href="#svg-heart"></use>
-                  </svg>
-                  <!-- /SVG HEART -->
-                </a>
-                <!-- /BUTTON -->
-
-                <!-- BUTTON -->
-                <a href="#" class="button square">
-                  <i class="fa fa-facebook"></i>
-                </a>
-                <!-- /BUTTON -->
-
-                <!-- BUTTON -->
-                <a href="#" class="button square">
-                  <i class="fa fa-twitter"></i>
-                </a>
-                <!-- /BUTTON -->
-              </div>
-              <!-- /BUTTON LIST -->
-            </div>
-            <!-- /PRODUCT LIST ITEM ACTIONS -->
-          </div>
-          <!-- /PRODUCT LIST ITEM PREVIEW -->
-
-          <!-- PRODUCT LIST ITEM INFO -->
-          <div class="product-list-item-info">
-            <a href="product-page-v1.html"><h6 class="title">Crasher Blu</h6></a>
-            <p class="product-description">Water Resistant</p>
-            <!-- PRODUCT LIST ITEM PRICE -->
-            <div class="product-list-item-price">
-              <!-- RATING -->
-              <ul class="rating">
-                <!-- RATING ITEM -->
-                <li class="rating-item filled">
-                  <!-- SVG STAR -->
-                  <svg class="svg-star">
-                    <use xlink:href="#svg-star"></use>
-                  </svg>
-                  <!-- /SVG STAR -->
-                </li>
-                <!-- /RATING ITEM -->
-
-                <!-- RATING ITEM -->
-                <li class="rating-item filled">
-                  <!-- SVG STAR -->
-                  <svg class="svg-star">
-                    <use xlink:href="#svg-star"></use>
-                  </svg>
-                  <!-- /SVG STAR -->
-                </li>
-                <!-- /RATING ITEM -->
-
-                <!-- RATING ITEM -->
-                <li class="rating-item filled">
-                  <!-- SVG STAR -->
-                  <svg class="svg-star">
-                    <use xlink:href="#svg-star"></use>
-                  </svg>
-                  <!-- /SVG STAR -->
-                </li>
-                <!-- /RATING ITEM -->
-
-                <!-- RATING ITEM -->
-                <li class="rating-item filled">
-                  <!-- SVG STAR -->
-                  <svg class="svg-star">
-                    <use xlink:href="#svg-star"></use>
-                  </svg>
-                  <!-- /SVG STAR -->
-                </li>
-                <!-- /RATING ITEM -->
-
-                <!-- RATING ITEM -->
-                <li class="rating-item">
-                  <!-- SVG STAR -->
-                  <svg class="svg-star">
-                    <use xlink:href="#svg-star"></use>
-                  </svg>
-                  <!-- /SVG STAR -->
-                </li>
-                <!-- /RATING ITEM -->
-              </ul>
-              <!-- /RATING -->
-              <h6 class="product-price">$165</h6>
-            </div>
-            <!-- /PRODUCT LIST ITEM PRICE -->
-          </div>
-          <!-- /PRODUCT LIST ITEM INFO -->
-        </div>
-        <!-- /PRODUCT LIST ITEM -->
-
-        <!-- PRODUCT LIST ITEM -->
-        <div class="product-list-item column">
-          <!-- PRODUCT LIST ITEM PREVIEW -->
-          <div class="product-list-item-preview">
-            <!-- PRODUCT IMG -->
-            <figure class="product-img">
-              <img src="img/products/04.jpg" alt="product04">
-            </figure>
-            <!-- /PRODUCT IMG -->
-
-            <!-- PRODUCT LIST ITEM ACTIONS -->
-            <div class="product-list-item-actions">
-              <!-- BUTTON LIST -->
-              <div class="button-list wrap-4">
-                <!-- BUTTON -->
-                <a href="#" class="button square">
-                  <!-- SVG CART -->
-                  <svg class="svg-cart-small">
-                    <use xlink:href="#svg-cart-small"></use>
-                  </svg>
-                  <!-- /SVG CART -->
-                </a>
-                <!-- /BUTTON -->
-
-                <!-- BUTTON -->
-                <a href="#" class="button square">
-                  <!-- SVG HEART -->
-                  <svg class="svg-heart">
-                    <use xlink:href="#svg-heart"></use>
-                  </svg>
-                  <!-- /SVG HEART -->
-                </a>
-                <!-- /BUTTON -->
-
-                <!-- BUTTON -->
-                <a href="#" class="button square">
-                  <i class="fa fa-facebook"></i>
-                </a>
-                <!-- /BUTTON -->
-
-                <!-- BUTTON -->
-                <a href="#" class="button square">
-                  <i class="fa fa-twitter"></i>
-                </a>
-                <!-- /BUTTON -->
-              </div>
-              <!-- /BUTTON LIST -->
-            </div>
-            <!-- /PRODUCT LIST ITEM ACTIONS -->
-          </div>
-          <!-- /PRODUCT LIST ITEM PREVIEW -->
-
-          <!-- PRODUCT LIST ITEM INFO -->
-          <div class="product-list-item-info">
-            <a href="product-page-v1.html"><h6 class="title">Marble Tower</h6></a>
-            <p class="product-description">Ultra Durability</p>
-            <!-- PRODUCT LIST ITEM PRICE -->
-            <div class="product-list-item-price">
-              <!-- RATING -->
-              <ul class="rating">
-                <!-- RATING ITEM -->
-                <li class="rating-item filled">
-                  <!-- SVG STAR -->
-                  <svg class="svg-star">
-                    <use xlink:href="#svg-star"></use>
-                  </svg>
-                  <!-- /SVG STAR -->
-                </li>
-                <!-- /RATING ITEM -->
-
-                <!-- RATING ITEM -->
-                <li class="rating-item filled">
-                  <!-- SVG STAR -->
-                  <svg class="svg-star">
-                    <use xlink:href="#svg-star"></use>
-                  </svg>
-                  <!-- /SVG STAR -->
-                </li>
-                <!-- /RATING ITEM -->
-
-                <!-- RATING ITEM -->
-                <li class="rating-item filled">
-                  <!-- SVG STAR -->
-                  <svg class="svg-star">
-                    <use xlink:href="#svg-star"></use>
-                  </svg>
-                  <!-- /SVG STAR -->
-                </li>
-                <!-- /RATING ITEM -->
-
-                <!-- RATING ITEM -->
-                <li class="rating-item">
-                  <!-- SVG STAR -->
-                  <svg class="svg-star">
-                    <use xlink:href="#svg-star"></use>
-                  </svg>
-                  <!-- /SVG STAR -->
-                </li>
-                <!-- /RATING ITEM -->
-
-                <!-- RATING ITEM -->
-                <li class="rating-item">
-                  <!-- SVG STAR -->
-                  <svg class="svg-star">
-                    <use xlink:href="#svg-star"></use>
-                  </svg>
-                  <!-- /SVG STAR -->
-                </li>
-                <!-- /RATING ITEM -->
-              </ul>
-              <!-- /RATING -->
-              <h6 class="product-price">$140</h6>
-            </div>
-            <!-- /PRODUCT LIST ITEM PRICE -->
-          </div>
-          <!-- /PRODUCT LIST ITEM INFO -->
-        </div>
-        <!-- /PRODUCT LIST ITEM -->
+        <!-- /CONTACT FORM -->
       </div>
-      <!-- /PRODUCT LIST -->
+      <!-- /CONTACT ACTIONS -->
     </div>
     <!-- /SECTION -->
+
+    <!-- CONTACT MAP -->
+    <div class="contact-map">
+      <div id="map"></div>
+    </div>
+    <!-- /CONTACT MAP -->
   </div>
   <!-- /SECTION WRAP -->
-
-  <!-- WIDGET FORM WRAP -->
-  <div class="widget-form-wrap">
-    <!-- WIDGET FORM -->
-    <div class="widget-form">
-      <!-- WIDGET FORM INFO -->
-      <div class="widget-form-info">
-        <h6 class="title">Join our newsletter</h6>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-      </div>
-      <!-- /WIDGET FORM INFO -->
-
-      <!-- WIDGET FORM INPUT -->
-      <form class="widget-form-input">
-        <input type="text" name="subscribe_email" placeholder="Enter your email here...">
-        <i class="icon-envelope"></i>
-      </form>
-      <!-- /WIDGET FORM INPUT -->
-    </div>
-    <!-- /WIDGET FORM -->
-  </div>
-  <!-- /WIDGET FORM WRAP -->
 
   <!-- FOOTER WRAP -->
   <footer class="footer-wrap">
@@ -2255,6 +1496,16 @@
   </svg>
   <!-- /SVG ARROW -->
 
+  <!-- SVG CHECK -->
+  <svg style="display: none;">
+    <symbol id="svg-check" viewBox="0 0 20 16" preserveAspectRatio="xMinYMin meet">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M19.692,3.398L7.764,15.669c-0.412,0.424-1.08,0.424-1.491,0
+    	L0.308,9.534C-0.104,9.11-0.104,8.423,0.308,8l1.491-1.534c0.412-0.424,1.08-0.424,1.491,0l3.728,3.834L16.71,0.33
+    	c0.412-0.423,1.08-0.423,1.491,0l1.491,1.534C20.104,2.288,20.104,2.975,19.692,3.398z"/>
+    </symbol>
+  </svg>
+  <!-- /SVG CHECK -->
+
   <!-- SVG MAG GLASS -->
   <svg style="display: none;">
     <symbol id="svg-mag-glass" viewBox="0 0 12 12" preserveAspectRatio="xMinYMin meet">
@@ -2304,46 +1555,6 @@
   </svg>
   <!-- /SVG CART -->
 
-  <!-- SVG CART SMALL -->
-  <svg style="display: none;">
-    <symbol id="svg-cart-small" viewBox="0 0 16 13" preserveAspectRatio="xMinYMin meet">
-      <g>
-      	<g>
-      		<path fill-rule="evenodd" clip-rule="evenodd" d="M12.49,10.012c-0.826,0-1.495,0.669-1.495,1.493
-      			c0,0.825,0.669,1.494,1.495,1.494s1.495-0.669,1.495-1.494C13.985,10.681,13.316,10.012,12.49,10.012z M5.497,10.012
-      			c-0.826,0-1.495,0.669-1.495,1.493c0,0.825,0.669,1.494,1.495,1.494c0.825,0,1.495-0.669,1.495-1.494
-      			C6.992,10.681,6.322,10.012,5.497,10.012z M4,1.001v-1H1c-0.553,0-1,0.448-1,1s0.447,1,1,1h1.25l1.75,7h10l2-8H4z M12.438,7.001
-      			H5.561l-1-4h8.877L12.438,7.001z"/>
-      	</g>
-      </g>
-    </symbol>
-  </svg>
-  <!-- /SVG CART SMALL -->
-
-  <!-- SVG HEART -->
-  <svg style="display: none;">
-    <symbol id="svg-heart" viewBox="0 0 14 12" preserveAspectRatio="xMinYMin meet">
-      <path d="M10.043,1.998c0.55,0,0.95,0.167,1.381,0.577c0.371,0.353,0.575,0.813,0.575,1.297
-      	c0,0.484-0.204,0.945-0.591,1.313C11.384,5.208,11.34,5.25,7.002,9.705C5.717,8.346,2.975,5.451,2.576,5.071
-      	C2.205,4.719,2,4.258,2,3.774s0.204-0.943,0.576-1.296C2.823,2.243,3.178,2.003,3.93,2.003c0.209,0,0.802,0.225,1.702,1.069
-      	l1.39,1.303l1.369-1.325C9.213,2.255,9.858,1.998,10.043,1.998 M10.043-0.002C9.011-0.002,7.859,0.782,7,1.613
-      	c-0.887-0.832-2.003-1.61-3.07-1.61c-1.045,0-1.965,0.297-2.731,1.025c-1.598,1.517-1.598,3.976,0,5.493
-      	c0.456,0.434,4.883,5.121,4.883,5.121c0.252,0.24,0.583,0.359,0.914,0.359c0.33,0,0.66-0.119,0.912-0.359
-      	c0,0,4.843-4.974,4.895-5.024c1.597-1.517,1.597-3.977,0-5.494C12.009,0.372,11.123-0.002,10.043-0.002L10.043-0.002z"/>
-    </symbol>
-  </svg>
-  <!-- /SVG HEART -->
-
-  <!-- SVG CHECK -->
-  <svg style="display: none;">
-    <symbol id="svg-check" viewBox="0 0 20 16" preserveAspectRatio="xMinYMin meet">
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M19.692,3.398L7.764,15.669c-0.412,0.424-1.08,0.424-1.491,0
-    	L0.308,9.534C-0.104,9.11-0.104,8.423,0.308,8l1.491-1.534c0.412-0.424,1.08-0.424,1.491,0l3.728,3.834L16.71,0.33
-    	c0.412-0.423,1.08-0.423,1.491,0l1.491,1.534C20.104,2.288,20.104,2.975,19.692,3.398z"/>
-    </symbol>
-  </svg>
-  <!-- /SVG CHECK -->
-
   <!-- SVG STAR -->
   <svg style="display: none;">
     <symbol id="svg-star" viewBox="0 0 15 14" preserveAspectRatio="xMinYMin meet">
@@ -2370,17 +1581,208 @@
 
 <!-- jQuery -->
 <script src="js/vendor/jquery-3.1.0.min.js"></script>
-<!-- imgLiquid -->
-<script src="js/vendor/imgLiquid-min.js"></script>
 <!-- magnificPopup -->
 <script src="js/vendor/jquery.magnific-popup.min.js"></script>
+<!-- imgLiquid -->
+<script src="js/vendor/imgLiquid-min.js"></script>
 <!-- liquid -->
 <script src="js/liquid.js"></script>
 <!-- dropdowns -->
 <script src="js/dropdowns.js"></script>
-<!-- app -->
-<script src="js/xmslider.js"></script>
 <!-- popups -->
 <script src="js/popups.js"></script>
+<script>
+  function initMap() {
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 16,
+      center: {lat: 40.7583818, lng: -73.9902694},
+      mapTypeControl: false,
+      zoomControl: false,
+      scrollwheel: false,
+      scaleControl: false,
+      streetViewControl: false,
+      fullscreenControl: false,
+      styles: [
+        {
+          "elementType": "geometry",
+          "stylers": [
+            {
+              "color": "#f5f5f5"
+            }
+          ]
+        },
+        {
+          "elementType": "labels.icon",
+          "stylers": [
+            {
+              "visibility": "off"
+            }
+          ]
+        },
+        {
+          "elementType": "labels.text.fill",
+          "stylers": [
+            {
+              "color": "#616161"
+            }
+          ]
+        },
+        {
+          "elementType": "labels.text.stroke",
+          "stylers": [
+            {
+              "color": "#f5f5f5"
+            }
+          ]
+        },
+        {
+          "featureType": "administrative.land_parcel",
+          "elementType": "labels.text.fill",
+          "stylers": [
+            {
+              "color": "#bdbdbd"
+            }
+          ]
+        },
+        {
+          "featureType": "poi",
+          "elementType": "geometry",
+          "stylers": [
+            {
+              "color": "#eeeeee"
+            }
+          ]
+        },
+        {
+          "featureType": "poi",
+          "elementType": "labels.text.fill",
+          "stylers": [
+            {
+              "color": "#757575"
+            }
+          ]
+        },
+        {
+          "featureType": "poi.park",
+          "elementType": "geometry",
+          "stylers": [
+            {
+              "color": "#e5e5e5"
+            }
+          ]
+        },
+        {
+          "featureType": "poi.park",
+          "elementType": "labels.text.fill",
+          "stylers": [
+            {
+              "color": "#9e9e9e"
+            }
+          ]
+        },
+        {
+          "featureType": "road",
+          "elementType": "geometry",
+          "stylers": [
+            {
+              "color": "#ffffff"
+            }
+          ]
+        },
+        {
+          "featureType": "road.arterial",
+          "elementType": "labels.text.fill",
+          "stylers": [
+            {
+              "color": "#757575"
+            }
+          ]
+        },
+        {
+          "featureType": "road.highway",
+          "elementType": "geometry",
+          "stylers": [
+            {
+              "color": "#dadada"
+            }
+          ]
+        },
+        {
+          "featureType": "road.highway",
+          "elementType": "labels.text.fill",
+          "stylers": [
+            {
+              "color": "#616161"
+            }
+          ]
+        },
+        {
+          "featureType": "road.local",
+          "elementType": "labels.text.fill",
+          "stylers": [
+            {
+              "color": "#9e9e9e"
+            }
+          ]
+        },
+        {
+          "featureType": "transit.line",
+          "elementType": "geometry",
+          "stylers": [
+            {
+              "color": "#e5e5e5"
+            }
+          ]
+        },
+        {
+          "featureType": "transit.station",
+          "elementType": "geometry",
+          "stylers": [
+            {
+              "color": "#eeeeee"
+            }
+          ]
+        },
+        {
+          "featureType": "water",
+          "elementType": "geometry",
+          "stylers": [
+            {
+              "color": "#c9c9c9"
+            }
+          ]
+        },
+        {
+          "featureType": "water",
+          "elementType": "labels.text.fill",
+          "stylers": [
+            {
+              "color": "#9e9e9e"
+            }
+          ]
+        }
+      ]
+    }),
+    marker = new google.maps.Marker({
+      position: {lat: 40.7583818, lng: -73.9902694},
+      map: map,
+      icon: 'img/map-marker.png',
+      animation: google.maps.Animation.DROP,
+      title: 'Hello World!'
+    });
+
+    marker.addListener('click', toggleBounce);
+    function toggleBounce() {
+      if (marker.getAnimation() !== null) {
+        marker.setAnimation(null);
+      } else {
+        marker.setAnimation(google.maps.Animation.BOUNCE);
+      }
+    }
+  }
+</script>
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBj6exYCo13nQJPXbGSlggFoqCTX3TqRP8&callback=initMap">
+    </script>
 </body>
 </html>

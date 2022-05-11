@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="css/style.min.css">
   <!-- favicon -->
   <link rel="icon" href="favicon.ico">
-  <title>The Trickster | About</title>
+  <title>The Trickster | Blog</title>
 </head>
 <body>
 
@@ -661,56 +661,18 @@
 
           <!-- MENU DROPDOWN -->
           <ul class="menu-dropdown">
-            <!-- MENU DROPDOWN ITEM -->
             <li class="menu-dropdown-item">
-              <a href="shop-sidebar-grid.html">Sidebar 3 Col Grid</a>
+              <a href="shop-sidebar-list.html">Motherboards</a>
             </li>
-            <!-- /MENU DROPDOWN ITEM -->
-
-            <!-- MENU DROPDOWN ITEM -->
             <li class="menu-dropdown-item">
-              <a href="shop-grid.html">4 Columns Grid</a>
+              <a href="shop-sidebar-list.html">Processors</a>
             </li>
-            <!-- /MENU DROPDOWN ITEM -->
-
-            <!-- MENU DROPDOWN ITEM -->
             <li class="menu-dropdown-item">
-              <a href="shop-sidebar-list.html">Sidebar 3 Col List</a>
+              <a href="shop-sidebar-list.html">Graphic Cards</a>
             </li>
-            <!-- /MENU DROPDOWN ITEM -->
 
-            <!-- MENU DROPDOWN ITEM -->
-            <li class="menu-dropdown-item">
-              <a href="shop-list.html">4 Columns List</a>
             </li>
-            <!-- /MENU DROPDOWN ITEM -->
-
-            <!-- MENU DROPDOWN ITEM -->
-            <li class="menu-dropdown-item">
-              <a href="#">Product Pages</a>
-              <!-- SVG ARROW -->
-              <svg class="svg-arrow tiny">
-                <use xlink:href="#svg-arrow"></use>
-              </svg>
-              <!-- /SVG ARROW -->
-
-              <!-- MENU DROPDOWN -->
-              <ul class="menu-dropdown">
-                <!-- MENU DROPDOWN ITEM -->
-                <li class="menu-dropdown-item">
-                  <a href="product-page-v1.html">Product Page V1</a>
-                </li>
-                <!-- /MENU DROPDOWN ITEM -->
-
-                <!-- MENU DROPDOWN ITEM -->
-                <li class="menu-dropdown-item">
-                  <a href="product-page-v2.html">Product Page V2</a>
-                </li>
-                <!-- /MENU DROPDOWN ITEM -->
-              </ul>
-              <!-- /MENU DROPDOWN -->
-            </li>
-            <!-- /MENU DROPDOWN ITEM -->
+            
           </ul>
           <!-- /MENU DROPDOWN -->
         </li>
@@ -735,138 +697,7 @@
 
           <!-- CONTENT DROPDOWN -->
           <div class="content-dropdown with-bg">
-            <!-- CONTENT DROPDOWN COLUMN -->
-            <div class="content-dropdown-column">
-              <h6 class="title tiny secondary">Main Features</h6>
-              <hr class="line-separator">
-              <!-- LINK LIST -->
-              <ul class="link-list simple">
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="index.html">Trickster Home</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="product-builder-v1.html">Product Builder V1</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="product-builder-v2.html">Product Builder V2</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="blog.html">Trickster Blog</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="post.html">Blog Post</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="contactus.html">Contact Page</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-              </ul>
-              <!-- /LINK LIST -->
-
-              <!-- LINK LIST -->
-              <ul class="link-list simple">
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="404.html">Error Page</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="aboutus.html">About Us</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="menu-dropdowns.html">Menu &amp; DDowns</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="shortcodes.html">Shortcodes</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="login-popup.html">Login Popup</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="ratings-popup.html">Ratings Popup</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-              </ul>
-              <!-- /LINK LIST -->
-            </div>
-            <!-- /CONTENT DROPDOWN COLUMN -->
-
-            <!-- CONTENT DROPDOWN COLUMN -->
-            <div class="content-dropdown-column">
-              <h6 class="title tiny secondary">Shop</h6>
-              <hr class="line-separator">
-              <!-- LINK LIST -->
-              <ul class="link-list simple">
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="shop-sidebar-grid.html">Sidebar 3 Col Grid</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="shop-grid.html">4 Columns Grid</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="shop-sidebar-list.html">Sidebar 3 Col List</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="shop-list.html">4 Columns List</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="product-page-v1.html">Product Page V1</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="product-page-v1.html">Product Page V2</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-              </ul>
-              <!-- /LINK LIST -->
-            </div>
-            <!-- /CONTENT DROPDOWN COLUMN -->
-
+            
             <!-- CONTENT DROPDOWN COLUMN -->
             <div class="content-dropdown-column">
               <h6 class="title tiny secondary">Account</h6>
@@ -958,49 +789,19 @@
       <!-- MOBILE MENU ITEM -->
       <li class="mobile-menu-item">
         <a href="#" class="dropdown-control">
-          Shop
-          <!-- SVG ARROW -->
-          <svg class="svg-arrow medium rotable">
-            <use xlink:href="#svg-arrow"></use>
-          </svg>
-          <!-- /SVG ARROW -->
+          Shop          
         </a>
 
         <!-- MOBILE MENU DROPDOWN -->
         <ul class="mobile-menu-dropdown dropdown">
-          <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="shop-sidebar-grid.html">Sidebar 3 Col Grid</a>
+            <a href="shop-sidebar-list.html">Motherboards</a>
           </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="shop-grid.html">4 Columns Grid</a>
+            <a href="shop-sidebar-list.html">Processors</a>
           </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
-            <a href="shop-sidebar-list.html">Sidebar 3 Col List</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="shop-list.html">4 Columns List</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="product-page-v1.html">Product Page V1</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="product-page-v2.html">Product Page V2</a>
+            <a href="shop-sidebar-list.html">Graphic Cards</a>
           </li>
           <!-- /MOBILE MENU DROPDOWN ITEM -->
         </ul>
@@ -1027,114 +828,7 @@
 
         <!-- MOBILE MENU DROPDOWN -->
         <ul class="mobile-menu-dropdown dropdown">
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="index.html">Trickster Home</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="product-builder-v1.html">Product Builder V1</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="product-builder-v2.html">Product Builder V2</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="blog.html">Trickster Blog</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="post.html">Blog Post</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="contactus.html">Contact Page</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="404.html">Error Page</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="aboutus.html">About Us</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="menu-dropdowns.html">Menu &amp; DDowns</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="shortcodes.html">Shortcodes</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="login-popup.html">Login Popup</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="ratings-popup.html">Ratings Popup</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="shop-sidebar-grid.html">Sidebar 3 Col Grid</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="shop-grid.html">4 Columns Grid</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="shop-sidebar-list.html">Sidebar 3 Col List</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="shop-list.html">4 Columns List</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="product-page-v1.html">Product Page V1</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
-          <!-- MOBILE MENU DROPDOWN ITEM -->
-          <li class="mobile-menu-dropdown-item">
-            <a href="product-page-v1.html">Product Page V2</a>
-          </li>
-          <!-- /MOBILE MENU DROPDOWN ITEM -->
-
+         
           <!-- MOBILE MENU DROPDOWN ITEM -->
           <li class="mobile-menu-dropdown-item">
             <a href="identification.html">Identification</a>
@@ -1286,7 +980,7 @@
           </svg>
           <!-- /SVG ARROW -->
         </span>
-        <span class="path current">About Us</span>
+        <span class="path current">Trickster Blog</span>
       </p>
       <!-- SECTION NAVIGATION PATH -->
     </div>
@@ -1294,85 +988,347 @@
   </div>
   <!-- /SECTION NAVIGATION WRAP -->
 
-  <!-- ABOUTUS BANNER WRAP -->
-  <div class="aboutus-banner-wrap">
-    <div class="aboutus-banner-bg-fill"></div>
-    <!-- ABOUTUS BANNER -->
-    <div class="aboutus-banner">
-      <!-- ABOUTUS BANNER CONTENT -->
-      <div class="aboutus-banner-content">
-        <h6 class="title secondary">We have<br><span class="bold">the best helmets</span></h6>
-        <p class="title">More than 20 Years of Experience</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris nisi ut aliquip ex ea modo consequat. Duis aute irure dolor in reprehenderit in tate velit esse cillum dolore.</p>
-        <a href="#" class="button medium">Search Designs</a>
-      </div>
-      <!-- /ABOUTUS BANNER CONTENT -->
-    </div>
-    <!-- /ABOUTUS BANNER -->
-  </div>
-  <!-- /ABOUTUS BANNER WRAP -->
-
   <!-- SECTION WRAP -->
   <div class="section-wrap">
-    <!-- FEATURES SECTION -->
-    <div class="features-section section">
-      <h6 class="pretitle">Look at all the</h6>
-      <h3 class="title large">Helmet Features</h3>
-      <hr class="line-separator short">
+    <!-- SECTION -->
+    <div class="section no-title">
+      <!-- POST PREVIEW LIST -->
+      <div class="post-preview-list">
+        <!-- POST PREVIEW LIST ITEM -->
+        <div class="post-preview-list-item">
+          <!-- POST PREVIEW IMG -->
+          <a href="post.html">
+            <div class="post-preview-img">
+              <div class="overlay">
+                <div class="circle">
+                  <!-- SVG PLUS -->
+                  <svg class="svg-plus medium">
+                    <use xlink:href="#svg-plus"></use>
+                  </svg>
+                  <!-- /SVG PLUS -->
+                </div>
+              </div>
+              <!-- POST IMG -->
+              <figure class="post-img">
+                <img src="img/blog/01.jpg" alt="post01">
+              </figure>
+              <!-- /POST IMG -->
+            </div>
+          </a>
+          <!-- /POST PREVIEW IMG -->
+          <p class="post-timestamp">October 26th, 2017</p>
+          <a href="post.html">
+            <h6 class="title medium">James Smart scored 39 points for The Falcons victory and is one of the finalists</h6>
+          </a>
+          <p class="post-author">By Admin<span class="separator">|</span>26 Comments</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris.</p>
+          <a href="post.html" class="button">Read More</a>
+        </div>
+        <!-- /POST PREVIEW LIST ITEM -->
 
-      <!-- FEATURE LIST -->
-      <ul class="feature-list big">
-        <!-- FEATURE LIST ITEM -->
-        <li class="feature-list-item">
-          <i class="s-icon icon-energy"></i>
-          <p class="title">Ultra Durability</p>
-          <p>Lorem ipsum dolor sit amet, consecteture ipisicing elit, sed dorem eiusmod tempor incididunt ut labore et dolore.</p>
-        </li>
-        <!-- /FEATURE LIST ITEM -->
+        <!-- POST PREVIEW LIST ITEM -->
+        <div class="post-preview-list-item">
+          <!-- POST PREVIEW IMG -->
+          <a href="post.html">
+            <div class="post-preview-img">
+              <div class="overlay">
+                <div class="circle">
+                  <!-- SVG PLUS -->
+                  <svg class="svg-plus medium">
+                    <use xlink:href="#svg-plus"></use>
+                  </svg>
+                  <!-- /SVG PLUS -->
+                </div>
+              </div>
+              <!-- POST IMG -->
+              <figure class="post-img">
+                <img src="img/blog/02.jpg" alt="post02">
+              </figure>
+              <!-- /POST IMG -->
+            </div>
+          </a>
+          <!-- /POST PREVIEW IMG -->
+          <p class="post-timestamp">October 14th, 2017</p>
+          <a href="post.html">
+            <h6 class="title medium">Los Angeles gets ready for the Football Legends Awards 2016</h6>
+          </a>
+          <p class="post-author">By Admin<span class="separator">|</span>54 Comments</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris.</p>
+          <a href="post.html" class="button">Read More</a>
+        </div>
+        <!-- /POST PREVIEW LIST ITEM -->
 
-        <!-- FEATURE LIST ITEM -->
-        <li class="feature-list-item">
-          <i class="s-icon icon-drop"></i>
-          <p class="title">Water Resistant</p>
-          <p>Lorem ipsum dolor sit amet, consecteture ipisicing elit, sed dorem eiusmod tempor incididunt ut labore et dolore.</p>
-        </li>
-        <!-- /FEATURE LIST ITEM -->
+        <!-- POST PREVIEW LIST ITEM -->
+        <div class="post-preview-list-item">
+          <!-- POST PREVIEW IMG -->
+          <a href="post.html">
+            <div class="post-preview-img">
+              <div class="overlay">
+                <div class="circle">
+                  <!-- SVG PLUS -->
+                  <svg class="svg-plus medium">
+                    <use xlink:href="#svg-plus"></use>
+                  </svg>
+                  <!-- /SVG PLUS -->
+                </div>
+              </div>
+              <!-- POST IMG -->
+              <figure class="post-img">
+                <img src="img/blog/03.jpg" alt="post03">
+              </figure>
+              <!-- /POST IMG -->
+            </div>
+          </a>
+          <!-- /POST PREVIEW IMG -->
+          <p class="post-timestamp">August 17th, 2017</p>
+          <a href="post.html">
+            <h6 class="title medium">Everything is ready for the championship fight Between Machete Gomez and Steel Stevenson</h6>
+          </a>
+          <p class="post-author">By Admin<span class="separator">|</span>127 Comments</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris.</p>
+          <a href="post.html" class="button">Read More</a>
+        </div>
+        <!-- /POST PREVIEW LIST ITEM -->
 
-        <!-- FEATURE LIST ITEM -->
-        <li class="feature-list-item">
-          <i class="s-icon icon-star"></i>
-          <p class="title">Super Comfort</p>
-          <p>Lorem ipsum dolor sit amet, consecteture ipisicing elit, sed dorem eiusmod tempor incididunt ut labore et dolore.</p>
-        </li>
-        <!-- /FEATURE LIST ITEM -->
+        <!-- POST PREVIEW LIST ITEM -->
+        <div class="post-preview-list-item">
+          <!-- POST PREVIEW IMG -->
+          <a href="post.html">
+            <div class="post-preview-img">
+              <div class="overlay">
+                <div class="circle">
+                  <!-- SVG PLUS -->
+                  <svg class="svg-plus medium">
+                    <use xlink:href="#svg-plus"></use>
+                  </svg>
+                  <!-- /SVG PLUS -->
+                </div>
+              </div>
+              <!-- POST IMG -->
+              <figure class="post-img">
+                <img src="img/blog/04.jpg" alt="post04">
+              </figure>
+              <!-- /POST IMG -->
+            </div>
+          </a>
+          <!-- /POST PREVIEW IMG -->
+          <p class="post-timestamp">August 8th, 2017</p>
+          <a href="post.html">
+            <h6 class="title medium">Manhattan is preparing to receive a million tourists for the New York Games</h6>
+          </a>
+          <p class="post-author">By Admin<span class="separator">|</span>305 Comments</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris.</p>
+          <a href="post.html" class="button">Read More</a>
+        </div>
+        <!-- /POST PREVIEW LIST ITEM -->
 
-        <!-- FEATURE LIST ITEM -->
-        <li class="feature-list-item">
-          <i class="s-icon icon-rocket"></i>
-          <p class="title">Special Designs</p>
-          <p>Lorem ipsum dolor sit amet, consecteture ipisicing elit, sed dorem eiusmod tempor incididunt ut labore et dolore.</p>
-        </li>
-        <!-- /FEATURE LIST ITEM -->
+        <!-- POST PREVIEW LIST ITEM -->
+        <div class="post-preview-list-item">
+          <!-- POST PREVIEW IMG -->
+          <a href="post.html">
+            <div class="post-preview-img">
+              <div class="overlay">
+                <div class="circle">
+                  <!-- SVG PLUS -->
+                  <svg class="svg-plus medium">
+                    <use xlink:href="#svg-plus"></use>
+                  </svg>
+                  <!-- /SVG PLUS -->
+                </div>
+              </div>
+              <!-- POST IMG -->
+              <figure class="post-img">
+                <img src="img/blog/05.jpg" alt="post05">
+              </figure>
+              <!-- /POST IMG -->
+            </div>
+          </a>
+          <!-- /POST PREVIEW IMG -->
+          <p class="post-timestamp">June 22nd, 2017</p>
+          <a href="post.html">
+            <h6 class="title medium">Here is Gonna be the new Crows Mega Stadium</h6>
+          </a>
+          <p class="post-author">By Admin<span class="separator">|</span>205 Comments</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris.</p>
+          <a href="post.html" class="button">Read More</a>
+        </div>
+        <!-- /POST PREVIEW LIST ITEM -->
 
-        <!-- FEATURE LIST ITEM -->
-        <li class="feature-list-item">
-          <i class="s-icon icon-like"></i>
-          <p class="title">Quality Warranty</p>
-          <p>Lorem ipsum dolor sit amet, consecteture ipisicing elit, sed dorem eiusmod tempor incididunt ut labore et dolore.</p>
-        </li>
-        <!-- /FEATURE LIST ITEM -->
+        <!-- POST PREVIEW LIST ITEM -->
+        <div class="post-preview-list-item">
+          <!-- POST PREVIEW IMG -->
+          <a href="post.html">
+            <div class="post-preview-img">
+              <div class="overlay">
+                <div class="circle">
+                  <!-- SVG PLUS -->
+                  <svg class="svg-plus medium">
+                    <use xlink:href="#svg-plus"></use>
+                  </svg>
+                  <!-- /SVG PLUS -->
+                </div>
+              </div>
+              <!-- POST IMG -->
+              <figure class="post-img">
+                <img src="img/blog/06.jpg" alt="post06">
+              </figure>
+              <!-- /POST IMG -->
+            </div>
+          </a>
+          <!-- /POST PREVIEW IMG -->
+          <p class="post-timestamp">June 7th, 2017</p>
+          <a href="post.html">
+            <h6 class="title medium">Spike Richards Mansion is for sale for 25 Millions</h6>
+          </a>
+          <p class="post-author">By Admin<span class="separator">|</span>536 Comments</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris.</p>
+          <a href="post.html" class="button">Read More</a>
+        </div>
+        <!-- /POST PREVIEW LIST ITEM -->
 
-        <!-- FEATURE LIST ITEM -->
-        <li class="feature-list-item">
-          <i class="s-icon icon-wrench"></i>
-          <p class="title">Product Builder</p>
-          <p>Lorem ipsum dolor sit amet, consecteture ipisicing elit, sed dorem eiusmod tempor incididunt ut labore et dolore.</p>
-        </li>
-        <!-- /FEATURE LIST ITEM -->
-      </ul>
-      <!-- /FEATURE LIST -->
+        <!-- POST PREVIEW LIST ITEM -->
+        <div class="post-preview-list-item">
+          <!-- POST PREVIEW IMG -->
+          <a href="post.html">
+            <div class="post-preview-img">
+              <div class="overlay">
+                <div class="circle">
+                  <!-- SVG PLUS -->
+                  <svg class="svg-plus medium">
+                    <use xlink:href="#svg-plus"></use>
+                  </svg>
+                  <!-- /SVG PLUS -->
+                </div>
+              </div>
+              <!-- POST IMG -->
+              <figure class="post-img">
+                <img src="img/blog/07.jpg" alt="post07">
+              </figure>
+              <!-- /POST IMG -->
+            </div>
+          </a>
+          <!-- /POST PREVIEW IMG -->
+          <p class="post-timestamp">May 16th, 2017</p>
+          <a href="post.html">
+            <h6 class="title medium">Negotiations for Marky Strong Finished and he's Crows new Lineback</h6>
+          </a>
+          <p class="post-author">By Admin<span class="separator">|</span>630 Comments</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris.</p>
+          <a href="post.html" class="button">Read More</a>
+        </div>
+        <!-- /POST PREVIEW LIST ITEM -->
+
+        <!-- POST PREVIEW LIST ITEM -->
+        <div class="post-preview-list-item">
+          <!-- POST PREVIEW IMG -->
+          <a href="post.html">
+            <div class="post-preview-img">
+              <div class="overlay">
+                <div class="circle">
+                  <!-- SVG PLUS -->
+                  <svg class="svg-plus medium">
+                    <use xlink:href="#svg-plus"></use>
+                  </svg>
+                  <!-- /SVG PLUS -->
+                </div>
+              </div>
+              <!-- POST IMG -->
+              <figure class="post-img">
+                <img src="img/blog/08.jpg" alt="post08">
+              </figure>
+              <!-- /POST IMG -->
+            </div>
+          </a>
+          <!-- /POST PREVIEW IMG -->
+          <p class="post-timestamp">March 29th, 2017</p>
+          <a href="post.html">
+            <h6 class="title medium">Learn what the Champions eat for breakfast. Recipes Inside!</h6>
+          </a>
+          <p class="post-author">By Admin<span class="separator">|</span>763 Comments</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris.</p>
+          <a href="post.html" class="button">Read More</a>
+        </div>
+        <!-- /POST PREVIEW LIST ITEM -->
+
+        <!-- POST PREVIEW LIST ITEM -->
+        <div class="post-preview-list-item">
+          <!-- POST PREVIEW IMG -->
+          <a href="post.html">
+            <div class="post-preview-img">
+              <div class="overlay">
+                <div class="circle">
+                  <!-- SVG PLUS -->
+                  <svg class="svg-plus medium">
+                    <use xlink:href="#svg-plus"></use>
+                  </svg>
+                  <!-- /SVG PLUS -->
+                </div>
+              </div>
+              <!-- POST IMG -->
+              <figure class="post-img">
+                <img src="img/blog/09.jpg" alt="post09">
+              </figure>
+              <!-- /POST IMG -->
+            </div>
+          </a>
+          <!-- /POST PREVIEW IMG -->
+          <p class="post-timestamp">March 6th, 2017</p>
+          <a href="post.html">
+            <h6 class="title medium">The new book about all the Supervowls is here and we Review it!</h6>
+          </a>
+          <p class="post-author">By Admin<span class="separator">|</span>894 Comments</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris.</p>
+          <a href="post.html" class="button">Read More</a>
+        </div>
+        <!-- /POST PREVIEW LIST ITEM -->
+      </div>
+      <!-- /POST PREVIEW LIST -->
+
+      <!-- PAGER WRAP -->
+      <div class="pager-wrap">
+        <!-- PAGER -->
+        <ul class="pager">
+          <!-- PAGER ITEM -->
+          <li class="pager-item">
+            <a href="#">
+              <!-- SVG ARROW -->
+              <svg class="svg-arrow medium inverted">
+                <use xlink:href="#svg-arrow"></use>
+              </svg>
+              <!-- /SVG ARROW -->
+            </a>
+          </li>
+          <!-- /PAGER ITEM -->
+
+          <!-- PAGER ITEM -->
+          <li class="pager-item selected"><a href="#">1</a></li>
+          <!-- /PAGER ITEM -->
+
+          <!-- PAGER ITEM -->
+          <li class="pager-item"><a href="#">2</a></li>
+          <!-- /PAGER ITEM -->
+
+          <!-- PAGER ITEM -->
+          <li class="pager-item"><a href="#">3</a></li>
+          <!-- /PAGER ITEM -->
+
+          <!-- PAGER ITEM -->
+          <li class="pager-item">
+            <a href="#">
+              <!-- SVG ARROW -->
+              <svg class="svg-arrow medium">
+                <use xlink:href="#svg-arrow"></use>
+              </svg>
+              <!-- /SVG ARROW -->
+            </a>
+          </li>
+          <!-- /PAGER ITEM -->
+        </ul>
+        <!-- /PAGER -->
+      </div>
+      <!-- /PAGER WRAP -->
     </div>
-    <!-- /FEATURES SECTION -->
+    <!-- /SECTION -->
   </div>
   <!-- /SECTION WRAP -->
 
@@ -1857,6 +1813,15 @@
   </svg>
   <!-- /SVG STAR -->
 
+  <!-- SVG PLUS -->
+  <svg style="display: none;">
+  	<symbol id="svg-plus" viewBox="0 0 10 10" preserveAspectRatio="xMinYMin meet">
+  		<rect x="4" width="2" height="10"/>
+  		<rect y="4" width="10" height="2"/>
+  	</symbol>
+  </svg>
+  <!-- /SVG PLUS -->
+
   <!-- SVG BURGER -->
   <svg style="display: none;">
     <symbol id="svg-burger" viewBox="0 0 22 14" preserveAspectRatio="xMinYMin meet">
@@ -1878,11 +1843,15 @@
 <script src="js/vendor/jquery.magnific-popup.min.js"></script>
 <!-- imgLiquid -->
 <script src="js/vendor/imgLiquid-min.js"></script>
+<!-- masonry -->
+<script src="js/vendor/masonry.pkgd.min.js"></script>
 <!-- liquid -->
 <script src="js/liquid.js"></script>
 <!-- dropdowns -->
 <script src="js/dropdowns.js"></script>
 <!-- popups -->
 <script src="js/popups.js"></script>
+<!-- posts masonry -->
+<script src="js/posts_masonry.js"></script>
 </body>
 </html>
