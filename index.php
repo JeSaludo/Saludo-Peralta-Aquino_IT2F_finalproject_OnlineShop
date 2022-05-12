@@ -1053,9 +1053,9 @@
       <!-- BUILDER ACTIONS ITEM -->
       <div class="builder-actions-item">
         <img src="img/home/start01.png" alt="start01">
-        <h6 class="title">Model Adamant-X</h6>
-        <p>Durability and Comfort</p>
-        <a href="product-builder-v1.php" class="button small">Start Building</a>
+        <h6 class="title">Motherboard</h6>
+        <p>Better optimization</p>
+        <a href="product-builder-v1.php" class="button small">Explore</a>
       </div>
       <!-- /BUILDER ACTIONS ITEM -->
     </div>
@@ -1066,9 +1066,9 @@
       <!-- BUILDER ACTIONS ITEM -->
       <div class="builder-actions-item">
         <img src="img/home/start02.png" alt="start02">
-        <h6 class="title">Model Feral-XTRM</h6>
-        <p>For Extreme Conditions</p>
-        <a href="product-builder-v2.php" class="button small">Start Building</a>
+        <h6 class="title">Processor</h6>
+        <p>Faster than ever</p>
+        <a href="product-builder-v2.php" class="button small">Explore</a>
       </div>
       <!-- /BUILDER ACTIONS ITEM -->
     </div>
@@ -1079,9 +1079,9 @@
       <!-- BUILDER ACTIONS ITEM -->
       <div class="builder-actions-item">
         <img src="img/home/start03.png" alt="start03">
-        <h6 class="title">Browse all Designs</h6>
-        <p>Handpicked Designs</p>
-        <a href="shop-grid.php" class="button small">Start Building</a>
+        <h6 class="title">GRAPHICS CARD</h6>
+        <p>Boost your gaming experience</p>
+        <a href="shop-grid.php" class="button small">Explore</a>
       </div>
       <!-- /BUILDER ACTIONS ITEM -->
     </div>
