@@ -342,7 +342,7 @@
       <!-- LOGO -->
       <figure class="logo">
         <img src="img/logo.png" alt="logo">
-        <figcaption>The Trickster</figcaption>
+        <figcaption>The ShopName</figcaption>
       </figure>
       <!-- /LOGO -->
 
@@ -993,10 +993,11 @@
     <div class="aboutus-banner">
       <!-- ABOUTUS BANNER CONTENT -->
       <div class="aboutus-banner-content">
-        <h6 class="title secondary">We have<br><span class="bold">the best helmets</span></h6>
-        <p class="title">More than 20 Years of Experience</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris nisi ut aliquip ex ea modo consequat. Duis aute irure dolor in reprehenderit in tate velit esse cillum dolore.</p>
-        <a href="#" class="button medium">Search Designs</a>
+        <h6 class="title secondary">Welcome to<br><span class="bold">PC WORLDZ</span></h6>
+        <p class="title">Your number one source of Computer Products</p>
+        <p>We're dedicated to give you the very best of Computer Products, with a focus on quality, price and uniqueness. Founded in 2022 by Saludo, Peralta and Aquino, PC WORLDZ serves customer worldwide, and are thrilled to be a part of the fair trade wing of the IT industry.</p>
+        <p>We hope you enjoy our products as much as we enjoy offering them to you. If you have any questions or comments, please don't hesitate to contact us.</p>
+        <a href="#" class="button medium">Search Products</a>
       </div>
       <!-- /ABOUTUS BANNER CONTENT -->
     </div>
@@ -1009,7 +1010,7 @@
     <!-- FEATURES SECTION -->
     <div class="features-section section">
       <h6 class="pretitle">Look at all the</h6>
-      <h3 class="title large">Helmet Features</h3>
+      <h3 class="title large">Computer Features</h3>
       <hr class="line-separator short">
 
       <!-- FEATURE LIST -->
@@ -1077,7 +1078,7 @@
         <!-- LOGO -->
         <figure class="logo">
           <img src="img/logo-footer.png" alt="logo">
-          <figcaption>The Trickster</figcaption>
+          <figcaption>Shop Name</figcaption>
         </figure>
         <!-- /LOGO -->
         <p class="description">Lorem ipsum dolor sit amet, sectetur sicing elit, sed do eiusmod. Ut enim ad minim iam, quis trud exercitation laboris. En derum de lorem sectum eusidim en amet.</p>
@@ -1087,14 +1088,14 @@
           <!-- CONTACTUS LIST ITEM -->
           <li class="contactus-list-item">
             <i class="s-icon icon-location-pin"></i>
-            <p>568 The Bebop Avenue, CA</p>
+            <p>Marinduque, PH</p>
           </li>
           <!-- /CONTACTUS LIST ITEM -->
 
           <!-- CONTACTUS LIST ITEM -->
           <li class="contactus-list-item">
             <i class="s-icon icon-envelope"></i>
-            <a href="mailto:info@tricksterhelmets.com" class="link">info@tricksterhelmets.com</a>
+            <a href="mailto:info@tricksterhelmets.com" class="link">info@storename.com</a>
           </li>
           <!-- /CONTACTUS LIST ITEM -->
 
@@ -1402,7 +1403,7 @@
   <div class="widget-line-wrap dark widget-line-copy">
     <!-- WIDGET LINE -->
     <div class="widget-line big">
-      <p class="copyright"><span class="bold">The Trickster</span> | All Rights Reserved 2016</p>
+      <p class="copyright"><span class="bold">Shop Name</span> | All Rights Reserved 2016</p>
       <!-- ACTIONS LIST -->
       <ul class="actions-list right">
         <!-- ACTIONS LIST ITEM -->
