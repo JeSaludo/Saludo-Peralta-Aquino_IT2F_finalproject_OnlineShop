@@ -1021,7 +1021,7 @@
             <h6 class="title medium">Nvidia has announced that it will be open-sourcing the Linux drivers for its graphics cards, starting with the R515 release, using a dual GPL/MIT license.</h6>
           </a>
           <p class="post-author">By Admin<span class="separator">|</span>26 Comments</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris.</p>
+          <p>Nvidia says the code is currently production-ready for data center GPUs in the Turing and Ampere families following the phased rollout of the GSP driver architecture over the past year. It has been tested across a wide variety of workloads to ensure feature and performance parity with the proprietary kernel-mode driver, but brings new functionality too, such as the DMA-BUF framework for sharing buffers across devices and subsystems that will come into its own with the Hopper architecture.</p>
           <a href="post.html" class="button">Read More</a>
         </div>
         <!-- /POST PREVIEW LIST ITEM -->
@@ -1054,7 +1054,9 @@
               <br><br></h6>
           </a>
           <p class="post-author">By Admin<span class="separator">|</span>54 Comments</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris.</p>
+          <p>In other news, the AMD Software Preview Driver May 2022 now comes with the "sharpen effect" for Radeon users to tweak the sharpness of the image when using AMD's Radeon Super Resolution (RSR) 1.1 technology. AMD has also integrated the AMD Bug Report Tool directly into the Adrenalin software.
+            <br><br><br><br><br></p>
+          
           <a href="post.html" class="button">Read More</a>
         </div>
         <!-- /POST PREVIEW LIST ITEM -->
@@ -1086,7 +1088,8 @@
             <h6 class="title medium">Today we have deals on two Zen 3 AMD CPUs: the Ryzen 7 5800X for $309 and the Ryzen 5 5600X for $199 both at their lowest price per ‘the Camelizer’. </h6>
           </a>
           <p class="post-author">By Admin<span class="separator">|</span>127 Comments</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris.</p>
+          <p>To the delight of anyone requiring a graphics card, we have an MSRP-priced Asus Dual Radeon RX 6600 for $329 at Newegg. It's great to see the pricing of GPUs getting back to normal, here's hoping they fall even further.
+            <br><br><br><br><br><br></p>
           <a href="post.html" class="button">Read More</a>
         </div>
         <!-- /POST PREVIEW LIST ITEM -->
@@ -1116,11 +1119,11 @@
           <p class="post-timestamp">August 8th, 2017</p>
           <a href="post.html">
             <h6 class="title medium">AMD and Google have announced an intricate, deep-level collaboration on cybersecurity research for AMD's server-class EPYC CPUs — one that's now been running for five years.
-              <br><br>
-              <br><br></h6>
+              <br><br><br><br></h6>
           </a>
           <p class="post-author">By Admin<span class="separator">|</span>305 Comments</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris.</p>
+          <p>Brent Hollingsworth, AMD's director of the EPYC software ecosystem, pointed out that the partnership pooled AMD and Google's best and brightest, opening up the space to previously unknown attack vectors, and pushing creativity on attack layers - whether software- or hardware-based.
+            <br><br><br></p>
           <a href="post.html" class="button">Read More</a>
         </div>
         <!-- /POST PREVIEW LIST ITEM -->
@@ -1152,7 +1155,7 @@
             <h6 class="title medium">Intel has released 16 new security advisories, which address 41 vulnerabilities. The advisories, some with 'high' severity ratings, appear to cover the full gamut of Intel catalog, including processors, devices, firmware, drivers and software.</h6>
           </a>
           <p class="post-author">By Admin<span class="separator">|</span>205 Comments</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris.</p>
+          <p>The Intel Processor advisory has been given the CVEID of CVE-2022-21151. It is described in summary as "a potential security vulnerability in some Intel Processors may allow information disclosure." It is 'only' a medium severity rating vulnerability. We think this is because it requires an authenticated user with local access to exploit the chance to "potentially enable information disclosure" from the processor.</p>
           <a href="post.html" class="button">Read More</a>
         </div>
         <!-- /POST PREVIEW LIST ITEM -->
@@ -1184,7 +1187,8 @@
             <h6 class="title medium">AMD's Ryzen 7 5800X3D, the fastest CPU for gaming is finally available. We've reviewed and tested the 5800X3D and confirmed its gaming performance on our test suite of games that have placed it at the top of our list of the best CPUs for gaming. </h6>
           </a>
           <p class="post-author">By Admin<span class="separator">|</span>536 Comments</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris.</p>
+          <p>The AMD Ryzen 7 5800X3D uses eight-cores and 16-threads with a max boost clock of up to 4.5GHz similar to its 5000-series family. What makes this chip different is a new 3D-stacked SRAM technology that employs a total of 96MB of L3 cache to give the 5800X3D amazing gaming performance.
+            <br><br><br><br></p>
           <a href="post.html" class="button">Read More</a>
         </div>
         <!-- /POST PREVIEW LIST ITEM -->
@@ -1213,10 +1217,12 @@
           <!-- /POST PREVIEW IMG -->
           <p class="post-timestamp">May 16th, 2017</p>
           <a href="post.html">
-            <h6 class="title medium">It's more difficult than ever to find savings on internal components like CPUs or RAM or even locate a high-end graphics card in stock. However, buying a new monitor could have an even more dramatic effect on your tech life than improving your system's performance.</h6>
+            <h6 class="title medium">It's more difficult than ever to find savings on internal components like CPUs or RAM or even locate a high-end graphics card in stock. However, buying a new monitor could have an even more dramatic effect on your tech life than improving your system's performance.
+              <br><br><br></h6>
           </a>
           <p class="post-author">By Admin<span class="separator">|</span>630 Comments</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris.</p>
+          <p>If you do any kind of PC gaming, getting a gaming monitor with a high-refresh rate and adaptive sync will completely change the way you play, eliminating tearing and ghosting. Upgrading to a larger screen or one with higher resolution will let you have a more immersive experience.
+            <br><br><br><br></p>
           <a href="post.html" class="button">Read More</a>
         </div>
         <!-- /POST PREVIEW LIST ITEM -->
@@ -1245,10 +1251,12 @@
           <!-- /POST PREVIEW IMG -->
           <p class="post-timestamp">March 29th, 2017</p>
           <a href="post.html">
-            <h6 class="title medium">Whether you're building a PC, craving an upgrade, looking for one of the best gaming PCs, or just hoping to find one of the best gaming monitors on a big sale, we're here to help you sift through the discounts.</h6>
+            <h6 class="title medium">Whether you're building a PC, craving an upgrade, looking for one of the best gaming PCs, or just hoping to find one of the best gaming monitors on a big sale, we're here to help you sift through the discounts.
+            <br><br><br><br><br></h6>
           </a>
           <p class="post-author">By Admin<span class="separator">|</span>763 Comments</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris.</p>
+          <p>To make saving simpler, we're rounding up the very best deals on tech and hardware below, from components like CPUs and SSDs to peripherals to prebuilt desktops and even gadgets.
+            <br><br><br><br><br><br></p>
           <a href="post.html" class="button">Read More</a>
         </div>
         <!-- /POST PREVIEW LIST ITEM -->
@@ -1280,7 +1288,7 @@
             <h6 class="title medium">Nvidia's forthcoming GeForce RTX 40-series (Ada Lovelace) graphics cards continue to make the rounds in the rumor mill. Hardware tipster kopite7kimi, who has an impeccable history with Ampere leaks, has revealed the potential memory configurations for the GeForce RTX 4090 and RTX 4070.</h6>
           </a>
           <p class="post-author">By Admin<span class="separator">|</span>894 Comments</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris.</p>
+          <p>In addition to the memory upgrade, the GeForce RTX 4090 would also sport more CUDA cores. However, the exact amount is unknown for now. Our estimation is between 17,000 to 18,500. Logically, Nvidia would need to raise the power limit on the GeForce RTX 4090 to accommodate the extra CUDA cores. Early diagrams of the GeForce RTX 4090's feasible PCB show that the graphics card could pull up to 600W of power.</p>
           <a href="post.html" class="button">Read More</a>
         </div>
         <!-- /POST PREVIEW LIST ITEM -->
