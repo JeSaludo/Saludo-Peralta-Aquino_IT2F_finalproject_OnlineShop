@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<products>
+
+    <product>
+        <name>GIGABYTE X570 AORUS XTREME</name>
+        <price>₱58,462</price>
+        <tag> E-ATX Motherboard</tag>
+        <description>Supports AMD Ryzen 5000 Series / 3rd Gen Ryzen/2nd Gen Ryzen / 2nd Gen Ryzen with Radeon Vega Graphics/Ryzen with Radeon Vega Graphics Processors</description>
+    </product>
+
+    <product>
+        <name> ASUS ROG Crosshair III Dark Hero </name>
+        <price> ₱28,516</price>
+        <tag> ATX AMD Motherboard </tag>
+        <description> AMD AM4 Socket for AMD Ryzen 5000 Series/4000 G-Series/3000 Series/3000 G-Series/2000 Series/2000 G-Series Desktop Processors</description>
+    </product>
+
+    <product>
+        <name> ASUS ROG Strix B550-F Gaming</name>
+        <price> ₱12,947.</price>
+        <tag> ATX Gaming Motherboard </tag>
+        <description> AMD AM4 Socket and PCIe 4.0: The perfect pairing for 3rd Gen AMD Ryzen CPUs</description>    
+    </product>
+
+     <product>
+        <name> GIGABYTE X570 AORUS ELITE WIFI</name>
+        <price> ₱12,644</price>
+        <tag> ATX AMD Motherboard </tag>
+        <description>  Supports AMD Ryzen 5000 Series / 5000 G-Series Processors, Supports AMD Ryzen 3rd Gen / 2nd Gen Processors , Supports AMD Ryzen 3rd Gen / 2nd Gen / 1st Gen with Radeon Vega Graphics Processors</description>
+    </product>
+    
+    <product>
+        <name> GIGABYTE B550M AORUS PRO-P </name>
+        <price> ₱8,640 </price>
+        <tag> Micro ATX Motherboard </tag>
+        <description>AMD Socket AM4, support for: AMD Ryzen 5000 Series / 3rd Gen Ryzen and 3rd Gen Ryzen with Radeon Graphics Processors</description>
+    </product>
+
+    <product>
+        <name> MSI MAG B550 TOMAHAWK  </name>
+        <price>₱11,242</price>
+        <tag>ATX AMD Motherboard  </tag>
+        <description> Supports AMD Ryzen 5000 / 4000 G / 3000 Series* processors</description>
+    </product>
+
+    
+
+</products>
+

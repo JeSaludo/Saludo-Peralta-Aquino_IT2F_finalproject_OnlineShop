@@ -651,64 +651,21 @@
         <!-- MAIN MENU ITEM -->
         <li class="main-menu-item">
           <a href="#">
-            Shop
-            <!-- SVG ARROW -->
-            <svg class="svg-arrow face-down">
-              <use xlink:href="#svg-arrow"></use>
-            </svg>
-            <!-- /SVG ARROW -->
+            Shop           
           </a>
 
           <!-- MENU DROPDOWN -->
           <ul class="menu-dropdown">
-            <!-- MENU DROPDOWN ITEM -->
+            
             <li class="menu-dropdown-item">
-              <a href="shop-sidebar-grid.html">Sidebar 3 Col Grid</a>
+              <a href="shop-sidebar-list.php">Motherboards</a>
             </li>
-            <!-- /MENU DROPDOWN ITEM -->
-
-            <!-- MENU DROPDOWN ITEM -->
             <li class="menu-dropdown-item">
-              <a href="shop-grid.html">4 Columns Grid</a>
+              <a href="shop-sidebar-list.php">Processors</a>
             </li>
-            <!-- /MENU DROPDOWN ITEM -->
-
-            <!-- MENU DROPDOWN ITEM -->
             <li class="menu-dropdown-item">
-              <a href="shop-sidebar-list.html">Sidebar 3 Col List</a>
+              <a href="shop-sidebar-list.php">Graphic Cards</a>
             </li>
-            <!-- /MENU DROPDOWN ITEM -->
-
-            <!-- MENU DROPDOWN ITEM -->
-            <li class="menu-dropdown-item">
-              <a href="shop-list.html">4 Columns List</a>
-            </li>
-            <!-- /MENU DROPDOWN ITEM -->
-
-            <!-- MENU DROPDOWN ITEM -->
-            <li class="menu-dropdown-item">
-              <a href="#">Product Pages</a>
-              <!-- SVG ARROW -->
-              <svg class="svg-arrow tiny">
-                <use xlink:href="#svg-arrow"></use>
-              </svg>
-              <!-- /SVG ARROW -->
-
-              <!-- MENU DROPDOWN -->
-              <ul class="menu-dropdown">
-                <!-- MENU DROPDOWN ITEM -->
-                <li class="menu-dropdown-item">
-                  <a href="product-page-v1.html">Product Page V1</a>
-                </li>
-                <!-- /MENU DROPDOWN ITEM -->
-
-                <!-- MENU DROPDOWN ITEM -->
-                <li class="menu-dropdown-item">
-                  <a href="product-page-v2.html">Product Page V2</a>
-                </li>
-                <!-- /MENU DROPDOWN ITEM -->
-              </ul>
-              <!-- /MENU DROPDOWN -->
             </li>
             <!-- /MENU DROPDOWN ITEM -->
           </ul>
@@ -734,140 +691,7 @@
           </a>
 
           <!-- CONTENT DROPDOWN -->
-          <div class="content-dropdown with-bg">
-            <!-- CONTENT DROPDOWN COLUMN -->
-            <div class="content-dropdown-column">
-              <h6 class="title tiny secondary">Main Features</h6>
-              <hr class="line-separator">
-              <!-- LINK LIST -->
-              <ul class="link-list simple">
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="index.html">Trickster Home</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="product-builder-v1.html">Product Builder V1</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="product-builder-v2.html">Product Builder V2</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="blog.html">Trickster Blog</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="post.html">Blog Post</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="contactus.html">Contact Page</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-              </ul>
-              <!-- /LINK LIST -->
-
-              <!-- LINK LIST -->
-              <ul class="link-list simple">
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="404.html">Error Page</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="aboutus.html">About Us</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="menu-dropdowns.html">Menu &amp; DDowns</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="shortcodes.html">Shortcodes</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="login-popup.html">Login Popup</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="ratings-popup.html">Ratings Popup</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-              </ul>
-              <!-- /LINK LIST -->
-            </div>
-            <!-- /CONTENT DROPDOWN COLUMN -->
-
-            <!-- CONTENT DROPDOWN COLUMN -->
-            <div class="content-dropdown-column">
-              <h6 class="title tiny secondary">Shop</h6>
-              <hr class="line-separator">
-              <!-- LINK LIST -->
-              <ul class="link-list simple">
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="shop-sidebar-grid.html">Sidebar 3 Col Grid</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="shop-grid.html">4 Columns Grid</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="shop-sidebar-list.html">Sidebar 3 Col List</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="shop-list.html">4 Columns List</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="product-page-v1.html">Product Page V1</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-
-                <!-- LINK LIST ITEM -->
-                <li class="link-list-item">
-                  <a href="product-page-v1.html">Product Page V2</a>
-                </li>
-                <!-- /LINK LIST ITEM -->
-              </ul>
-              <!-- /LINK LIST -->
-            </div>
-            <!-- /CONTENT DROPDOWN COLUMN -->
-
-            <!-- CONTENT DROPDOWN COLUMN -->
+          <div class="content-dropdown with-bg">            
             <div class="content-dropdown-column">
               <h6 class="title tiny secondary">Account</h6>
               <hr class="line-separator">
@@ -1311,11 +1135,11 @@
       <hr class="line-separator">
       <!-- FILTER HEADER -->
       <div class="filter-header">
-        <h6 class="title">Showing 6 out of 128 results</h6>
+        <h6 class="title">Showing 1 out of 128 results</h6>
         <!-- VIEW SELECTORS -->
         <div class="view-selectors">
           <!-- VIEW SELECTOR -->
-          <a href="shop-grid.html" class="view-selector">
+          <a href="#" class="view-selector">
             <!-- SVG GRID -->
             <svg class="svg-grid">
               <use xlink:href="#svg-grid"></use>
@@ -1325,7 +1149,7 @@
           <!-- /VIEW SELECTOR -->
 
           <!-- VIEW SELECTOR -->
-          <a href="shop-list.html" class="view-selector selected">
+          <a href="#" class="view-selector selected">
             <!-- SVG LIST -->
             <svg class="svg-list">
               <use xlink:href="#svg-list"></use>
@@ -1344,8 +1168,8 @@
             <!-- SELECT BLOCK -->
             <label for="price_filter" class="select-block">
 							<select name="price_filter" id="price_filter">
-								<option value="0">Product Price</option>
-								<option value="1">Product Rating</option>
+                <option value="0">Product Rating</option>
+								<option value="1">Product Price</option>
 							</select>
 							<!-- SVG ARROW -->
 							<svg class="svg-arrow face-down">
@@ -1363,8 +1187,9 @@
             <!-- SELECT BLOCK -->
             <label for="items_page" class="select-block">
 							<select name="items_page" id="items_page">
-								<option value="0">Lowest to Highest</option>
-								<option value="1">Highest to Lowest</option>
+								<option value="0">Latest</option>
+                <option value="1">Lowest to Highest</option>
+								<option value="2">Highest to Lowest</option>
 							</select>
 							<!-- SVG ARROW -->
 							<svg class="svg-arrow face-down">
@@ -1382,8 +1207,8 @@
             <!-- SELECT BLOCK -->
             <label for="items_page2" class="select-block">
 							<select name="items_page2" id="items_page2">
-								<option value="0">12 Items per Page</option>
-								<option value="1">6 Items per Page</option>
+								<option value="0">6 Items per Page</option>
+								<option value="1">12 Items per Page</option>
 							</select>
 							<!-- SVG ARROW -->
 							<svg class="svg-arrow face-down">
@@ -1406,15 +1231,23 @@
           <!-- PRODUCT IMG -->
           <a href="product-page-v1.html">
             <figure class="product-img">
-              <img src="img/products/01.jpg" alt="product01">
+              <img src="img/products/01.png" alt="product01">
             </figure>
           </a>
           <!-- /PRODUCT IMG -->
 
           <!-- PRODUCT LIST ITEM INFO -->
           <div class="product-list-item-info">
-            <a href="product-page-v1.html"><h6 class="title medium">The Golden Eagle</h6></a>
-            <p class="product-description medium">For Extreme Conditions</p>
+            <a href="product-page-v1.html"><h6 class="title medium">
+              <?php
+              $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
+              echo $item->product[0]->name;
+              ?>
+            </h6></a>
+            <p class="product-description medium"><?php
+              $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
+              echo $item->product[0]->tag;
+              ?></p>
             <!-- RATING -->
             <ul class="rating">
               <!-- RATING ITEM -->
@@ -1458,7 +1291,7 @@
               <!-- /RATING ITEM -->
 
               <!-- RATING ITEM -->
-              <li class="rating-item">
+              <li class="rating-item filled">
                 <!-- SVG STAR -->
                 <svg class="svg-star">
                   <use xlink:href="#svg-star"></use>
@@ -1468,8 +1301,14 @@
               <!-- /RATING ITEM -->
             </ul>
             <!-- /RATING -->
-            <h6 class="product-price medium">$140</h6>
-            <p class="product-description-preview">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris nisi ut aliquip ex ea modo consequat.</p>
+            <h6 class="product-price medium"> <?php
+              $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
+              echo $item->product[0]->price;
+              ?></h6>
+            <p class="product-description-preview"> <?php
+             $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
+              echo $item->product[0]->description;
+              ?></p>
             <!-- BUTTON LIST -->
             <div class="button-list wrap-4">
               <!-- BUTTON -->
@@ -1515,15 +1354,24 @@
           <!-- PRODUCT IMG -->
           <a href="product-page-v1.html">
             <figure class="product-img">
-              <img src="img/products/02.jpg" alt="product02">
+              <img src="img/products/02.png" alt="product02">
             </figure>
           </a>
           <!-- /PRODUCT IMG -->
 
           <!-- PRODUCT LIST ITEM INFO -->
           <div class="product-list-item-info">
-            <a href="product-page-v1.html"><h6 class="title medium">Poisonous Frog</h6></a>
-            <p class="product-description medium">For Outdoor Sports</p>
+            <a href="product-page-v1.html"><h6 class="title medium">
+              <?php
+              $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
+              echo $item->product[1]->name;
+              ?></h6></a>
+            <p class="product-description medium">
+            <?php
+               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
+              echo $item->product[1]->tag;
+              ?>
+            </p>
             <!-- RATING -->
             <ul class="rating">
               <!-- RATING ITEM -->
@@ -1567,7 +1415,7 @@
               <!-- /RATING ITEM -->
 
               <!-- RATING ITEM -->
-              <li class="rating-item filled">
+              <li class="rating-item">
                 <!-- SVG STAR -->
                 <svg class="svg-star">
                   <use xlink:href="#svg-star"></use>
@@ -1577,8 +1425,16 @@
               <!-- /RATING ITEM -->
             </ul>
             <!-- /RATING -->
-            <h6 class="product-price medium">$170</h6>
-            <p class="product-description-preview">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris nisi ut aliquip ex ea modo consequat.</p>
+            <h6 class="product-price medium">
+            <?php
+               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
+              echo $item->product[1]->price;
+              ?>
+            </h6>
+            <p class="product-description-preview"><?php
+               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
+              echo $item->product[1]->description;
+              ?></p>
             <!-- BUTTON LIST -->
             <div class="button-list wrap-4">
               <!-- BUTTON -->
@@ -1624,15 +1480,23 @@
           <!-- PRODUCT IMG -->
           <a href="product-page-v1.html">
             <figure class="product-img">
-              <img src="img/products/03.jpg" alt="product03">
+              <img src="img/products/03.png" alt="product03">
             </figure>
           </a>
           <!-- /PRODUCT IMG -->
 
           <!-- PRODUCT LIST ITEM INFO -->
           <div class="product-list-item-info">
-            <a href="product-page-v1.html"><h6 class="title medium">Crasher Blu</h6></a>
-            <p class="product-description medium">Water Resistant</p>
+            <a href="product-page-v1.html"><h6 class="title medium">
+              <?php
+               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');;
+              echo $item->product[2]->name;
+              ?>
+            </h6></a>
+            <p class="product-description medium"><?php
+               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
+              echo $item->product[2]->tag;
+              ?></p>
             <!-- RATING -->
             <ul class="rating">
               <!-- RATING ITEM -->
@@ -1686,8 +1550,16 @@
               <!-- /RATING ITEM -->
             </ul>
             <!-- /RATING -->
-            <h6 class="product-price medium">$165</h6>
-            <p class="product-description-preview">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris nisi ut aliquip ex ea modo consequat.</p>
+            <h6 class="product-price medium">
+            <?php
+               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
+              echo $item->product[2]->price;
+              ?>
+            </h6>
+            <p class="product-description-preview"><?php
+              $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
+              echo $item->product[2]->description;
+              ?></p>
             <!-- BUTTON LIST -->
             <div class="button-list wrap-4">
               <!-- BUTTON -->
@@ -1733,15 +1605,25 @@
           <!-- PRODUCT IMG -->
           <a href="product-page-v1.html">
             <figure class="product-img">
-              <img src="img/products/05.jpg" alt="product05">
+              <img src="img/products/04.png" alt="product05">
             </figure>
           </a>
           <!-- /PRODUCT IMG -->
 
           <!-- PRODUCT LIST ITEM INFO -->
           <div class="product-list-item-info">
-            <a href="product-page-v1.html"><h6 class="title medium">The Patriot</h6></a>
-            <p class="product-description medium">By Spiegel</p>
+            <a href="product-page-v1.html"><h6 class="title medium">
+            <?php
+              $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
+              echo $item->product[3]->name;
+              ?>
+            </h6></a>
+            <p class="product-description medium">
+            <?php
+               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
+              echo $item->product[3]->tag;
+              ?>
+            </p>
             <!-- RATING -->
             <ul class="rating">
               <!-- RATING ITEM -->
@@ -1795,8 +1677,14 @@
               <!-- /RATING ITEM -->
             </ul>
             <!-- /RATING -->
-            <h6 class="product-price medium">$185</h6>
-            <p class="product-description-preview">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris nisi ut aliquip ex ea modo consequat.</p>
+            <h6 class="product-price medium"><?php
+               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
+              echo $item->product[3]->price;
+              ?></h6>
+            <p class="product-description-preview"><?php
+               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
+              echo $item->product[3]->description;
+              ?></p>
             <!-- BUTTON LIST -->
             <div class="button-list wrap-4">
               <!-- BUTTON -->
@@ -1842,15 +1730,21 @@
           <!-- PRODUCT IMG -->
           <a href="product-page-v1.html">
             <figure class="product-img">
-              <img src="img/products/06.jpg" alt="product06">
+              <img src="img/products/05.png" alt="product06">
             </figure>
           </a>
           <!-- /PRODUCT IMG -->
 
           <!-- PRODUCT LIST ITEM INFO -->
           <div class="product-list-item-info">
-            <a href="product-page-v1.html"><h6 class="title medium">Crashing Wave</h6></a>
-            <p class="product-description medium">Water Resistant</p>
+            <a href="product-page-v1.html"><h6 class="title medium"><?php
+              $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
+              echo $item->product[4]->name;
+              ?></h6></a>
+            <p class="product-description medium"><?php
+               $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
+              echo $item->product[4]->tag;
+              ?></p>
             <!-- RATING -->
             <ul class="rating">
               <!-- RATING ITEM -->
@@ -1904,8 +1798,14 @@
               <!-- /RATING ITEM -->
             </ul>
             <!-- /RATING -->
-            <h6 class="product-price medium">$180</h6>
-            <p class="product-description-preview">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris nisi ut aliquip ex ea modo consequat.</p>
+            <h6 class="product-price medium"><?php
+             $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
+              echo $item->product[4]->price;
+              ?></h6>
+            <p class="product-description-preview"><?php
+              $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
+              echo $item->product[4]->description;
+              ?></p>
             <!-- BUTTON LIST -->
             <div class="button-list wrap-4">
               <!-- BUTTON -->
@@ -1951,15 +1851,23 @@
           <!-- PRODUCT IMG -->
           <a href="product-page-v1.html">
             <figure class="product-img">
-              <img src="img/products/04.jpg" alt="product04">
+              <img src="img/products/06.png" alt="product04">
             </figure>
           </a>
           <!-- /PRODUCT IMG -->
 
           <!-- PRODUCT LIST ITEM INFO -->
           <div class="product-list-item-info">
-            <a href="product-page-v1.html"><h6 class="title medium">Marble Tower</h6></a>
-            <p class="product-description medium">Extra Durability</p>
+            <a href="product-page-v1.html"><h6 class="title medium">
+            <?php
+             $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
+              echo $item->product[5]->name;
+              ?>
+            </h6></a>
+            <p class="product-description medium"><?php
+              $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
+              echo $item->product[5]->tag;
+              ?></p>
             <!-- RATING -->
             <ul class="rating">
               <!-- RATING ITEM -->
@@ -2013,8 +1921,14 @@
               <!-- /RATING ITEM -->
             </ul>
             <!-- /RATING -->
-            <h6 class="product-price medium">$140</h6>
-            <p class="product-description-preview">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris nisi ut aliquip ex ea modo consequat.</p>
+            <h6 class="product-price medium"><?php
+              $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
+              echo $item->product[5]->price;
+              ?></h6>
+            <p class="product-description-preview"><?php
+             $item = simplexml_load_file('data/Saludo-Peralta-Aquino_IT2F_PcWorldz.xml');
+              echo $item->product[5]->description;
+              ?></p>
             <!-- BUTTON LIST -->
             <div class="button-list wrap-4">
               <!-- BUTTON -->
