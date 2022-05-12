@@ -588,8 +588,8 @@ button {
   height: 46px;
   line-height: 46px;
   border-radius: 4px;
-  background-color: #ff5400;
-  color: #fff;
+  background-color: #1f1f1f;
+  color: rgb(0, 0, 0);
   font-size: 0.75em;
   font-weight: 900;
   text-align: center;
@@ -597,10 +597,10 @@ button {
   transition: background-color 0.15s ease-in-out; }
   .button.v2 {
     background-color: #fff;
-    border: 2px solid #ff5400;
-    color: #ff5400; }
+    border: 2px solid #1f1f1f;
+    color: #1f1f1f; }
     .button.v2:hover {
-      background-color: #ff5400;
+      background-color: #1f1f1f;
       color: #fff; }
   .button.cart-icon {
     padding-right: 10px; }
@@ -858,14 +858,14 @@ a.link {
 
 ::-moz-selection {
   color: #fff;
-  background: #ff5400; }
+  background: #21295C; }
 
 ::selection {
   color: #fff;
-  background: #ff5400; }
+  background: #21295C; }
 
 span.bold {
-  color: #ff5400; }
+  color: #21295C; }
 
 .logo {
   width: 145px;
@@ -2117,7 +2117,7 @@ span.bold {
   .banner-title.dark {
     color: #242424; }
   .banner-title.main {
-    color: #ff5400; }
+    color: #ffffff; }
   .banner-title.micro {
     font-size: 1em; }
     .banner-title.micro.light {
@@ -2138,7 +2138,7 @@ span.bold {
     height: 88px;
     padding: 0 14px;
     color: #00063c;
-    background-color: #ff5400; }
+    background-color: #ffffff; }
 
 @media screen and (max-width: 1260px) {
   .main-slider {

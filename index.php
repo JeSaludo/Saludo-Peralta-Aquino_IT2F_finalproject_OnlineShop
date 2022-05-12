@@ -996,9 +996,9 @@
         <div class="slide-content-wrap">
           <!-- SLIDE CONTENT -->
           <div class="slide-content">
-            <h2 class="banner-title tiny">The Trickster</h2>
-            <h2 class="banner-title">Custom Helmets</h2>
-            <h2 class="banner-title micro">You have thousands of possibilities to choose from!</h2>
+            <h2 class="banner-title tiny">WELCOME TO</h2>
+            <h2 class="banner-title">PC WORLDZ</h2>
+            <h2 class="banner-title micro">You have hundreds of pc parts to choose from!</h2>
           </div>
           <!-- SLIDE CONTENT -->
         </div>
@@ -1013,10 +1013,11 @@
           <!-- SLIDE CONTENT -->
           <div class="slide-content">
             <h2 class="banner-title small">We have</h2>
-            <h2 class="banner-title"><span class="highlighted">Incredible</span></h2>
-            <h2 class="banner-title">Designs</h2>
-            <h2 class="banner-title micro">Thousands of helmets to choose from!</h2>
+            <h2 class="banner-title"><span class="highlighted">High-end</span></h2>
+            <h2 class="banner-title">PC Parts</h2>
+            <h2 class="banner-title micro">Hundreds of brands to choose from!</h2>
             <a href="#" class="button">Browse Popular</a>
+
           </div>
           <!-- SLIDE CONTENT -->
         </div>
@@ -1030,9 +1031,9 @@
         <div class="slide-content-wrap">
           <!-- SLIDE CONTENT -->
           <div class="slide-content">
-            <h2 class="banner-title dark large">Customize</h2>
-            <h2 class="banner-title main medium">Your Helmet</h2>
-            <h2 class="banner-title micro light">Millions of different posibilities!</h2>
+            <h2 class="banner-title dark large">Choose</h2>
+            <h2 class="banner-title main medium">Your Parts</h2>
+            <h2 class="banner-title micro light">Build your dream gaming PC!</h2>
             <a href="#" class="button">Build your helmet!</a>
           </div>
           <!-- SLIDE CONTENT -->
@@ -1259,7 +1260,7 @@
         <div class="step-list-item right">
           <div class="step-list-item-info">
             <h6 class="title medium"><span class="bold">02.</span></h6>
-            <h6 class="title large">Customize<br>your Helmet</h6>
+            <h6 class="title large">Customize<br>your PC</h6>
             <h6 class="title small">Give your style to the product</h6>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris nisi ut aliquip ex ea modo consequat. Duis aute irure dolor in reprehenderit in tate velit esse cillum dolore en repentum der lorem.</p>
           </div>
