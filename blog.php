@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="css/style.min.css">
   <!-- favicon -->
   <link rel="icon" href="favicon.ico">
-  <title>The Trickster | Blog</title>
+  <title>PCWORLDZ | Blog</title>
 </head>
 <body>
 
@@ -45,7 +45,7 @@
 
         <!-- FORM ROW -->
         <div class="form-row separated">
-          <button class="button dark full">Register to Trickster!</button>
+          <button class="button dark full">Register to PC WORLDZ!</button>
         </div>
         <!-- /FORM ROW -->
       </form>
@@ -59,7 +59,7 @@
 
     <!-- FORM POPUP COLUMN -->
     <div class="form-popup-column small">
-      <h2 class="subsection-title medium">Login to Trickster</h2>
+      <h2 class="subsection-title medium">Login to PC WORLDZ</h2>
       <hr class="line-separator">
       <!-- FORM -->
       <form>
@@ -342,7 +342,7 @@
       <!-- LOGO -->
       <figure class="logo">
         <img src="img/logo.png" alt="logo">
-        <figcaption>The Trickster</figcaption>
+        <figcaption>PC WORLDZ</figcaption>
       </figure>
       <!-- /LOGO -->
 
@@ -980,7 +980,7 @@
           </svg>
           <!-- /SVG ARROW -->
         </span>
-        <span class="path current">Trickster Blog</span>
+        <span class="path current">PC WORLDZ Blog</span>
       </p>
       <!-- SECTION NAVIGATION PATH -->
     </div>
@@ -1010,7 +1010,7 @@
               </div>
               <!-- POST IMG -->
               <figure class="post-img">
-                <img src="img/blog/01.jpg" alt="post01">
+                <img src="img/blog/1.jpg" alt="post01">
               </figure>
               <!-- /POST IMG -->
             </div>
@@ -1018,7 +1018,7 @@
           <!-- /POST PREVIEW IMG -->
           <p class="post-timestamp">October 26th, 2017</p>
           <a href="post.html">
-            <h6 class="title medium">James Smart scored 39 points for The Falcons victory and is one of the finalists</h6>
+            <h6 class="title medium">Nvidia has announced that it will be open-sourcing the Linux drivers for its graphics cards, starting with the R515 release, using a dual GPL/MIT license.</h6>
           </a>
           <p class="post-author">By Admin<span class="separator">|</span>26 Comments</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris.</p>
@@ -1042,7 +1042,7 @@
               </div>
               <!-- POST IMG -->
               <figure class="post-img">
-                <img src="img/blog/02.jpg" alt="post02">
+                <img src="img/blog/2.jpg" alt="post02">
               </figure>
               <!-- /POST IMG -->
             </div>
@@ -1050,7 +1050,8 @@
           <!-- /POST PREVIEW IMG -->
           <p class="post-timestamp">October 14th, 2017</p>
           <a href="post.html">
-            <h6 class="title medium">Los Angeles gets ready for the Football Legends Awards 2016</h6>
+            <h6 class="title medium">AMD has released the AMD Software Preview Driver May 2022, which is now available to all Radeon graphics card owners.
+              <br><br></h6>
           </a>
           <p class="post-author">By Admin<span class="separator">|</span>54 Comments</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris.</p>
@@ -1074,7 +1075,7 @@
               </div>
               <!-- POST IMG -->
               <figure class="post-img">
-                <img src="img/blog/03.jpg" alt="post03">
+                <img src="img/blog/3.jpg" alt="post03">
               </figure>
               <!-- /POST IMG -->
             </div>
@@ -1082,7 +1083,7 @@
           <!-- /POST PREVIEW IMG -->
           <p class="post-timestamp">August 17th, 2017</p>
           <a href="post.html">
-            <h6 class="title medium">Everything is ready for the championship fight Between Machete Gomez and Steel Stevenson</h6>
+            <h6 class="title medium">Today we have deals on two Zen 3 AMD CPUs: the Ryzen 7 5800X for $309 and the Ryzen 5 5600X for $199 both at their lowest price per ‘the Camelizer’. </h6>
           </a>
           <p class="post-author">By Admin<span class="separator">|</span>127 Comments</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris.</p>
@@ -1106,7 +1107,7 @@
               </div>
               <!-- POST IMG -->
               <figure class="post-img">
-                <img src="img/blog/04.jpg" alt="post04">
+                <img src="img/blog/4.jpg" alt="post04">
               </figure>
               <!-- /POST IMG -->
             </div>
@@ -1114,7 +1115,9 @@
           <!-- /POST PREVIEW IMG -->
           <p class="post-timestamp">August 8th, 2017</p>
           <a href="post.html">
-            <h6 class="title medium">Manhattan is preparing to receive a million tourists for the New York Games</h6>
+            <h6 class="title medium">AMD and Google have announced an intricate, deep-level collaboration on cybersecurity research for AMD's server-class EPYC CPUs — one that's now been running for five years.
+              <br><br>
+              <br><br></h6>
           </a>
           <p class="post-author">By Admin<span class="separator">|</span>305 Comments</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris.</p>
@@ -1138,7 +1141,7 @@
               </div>
               <!-- POST IMG -->
               <figure class="post-img">
-                <img src="img/blog/05.jpg" alt="post05">
+                <img src="img/blog/5.jpg" alt="post05">
               </figure>
               <!-- /POST IMG -->
             </div>
@@ -1146,7 +1149,7 @@
           <!-- /POST PREVIEW IMG -->
           <p class="post-timestamp">June 22nd, 2017</p>
           <a href="post.html">
-            <h6 class="title medium">Here is Gonna be the new Crows Mega Stadium</h6>
+            <h6 class="title medium">Intel has released 16 new security advisories, which address 41 vulnerabilities. The advisories, some with 'high' severity ratings, appear to cover the full gamut of Intel catalog, including processors, devices, firmware, drivers and software.</h6>
           </a>
           <p class="post-author">By Admin<span class="separator">|</span>205 Comments</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris.</p>
@@ -1170,7 +1173,7 @@
               </div>
               <!-- POST IMG -->
               <figure class="post-img">
-                <img src="img/blog/06.jpg" alt="post06">
+                <img src="img/blog/6.jpg" alt="post06">
               </figure>
               <!-- /POST IMG -->
             </div>
@@ -1178,7 +1181,7 @@
           <!-- /POST PREVIEW IMG -->
           <p class="post-timestamp">June 7th, 2017</p>
           <a href="post.html">
-            <h6 class="title medium">Spike Richards Mansion is for sale for 25 Millions</h6>
+            <h6 class="title medium">AMD's Ryzen 7 5800X3D, the fastest CPU for gaming is finally available. We've reviewed and tested the 5800X3D and confirmed its gaming performance on our test suite of games that have placed it at the top of our list of the best CPUs for gaming. </h6>
           </a>
           <p class="post-author">By Admin<span class="separator">|</span>536 Comments</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris.</p>
@@ -1202,7 +1205,7 @@
               </div>
               <!-- POST IMG -->
               <figure class="post-img">
-                <img src="img/blog/07.jpg" alt="post07">
+                <img src="img/blog/7.jpg" alt="post07">
               </figure>
               <!-- /POST IMG -->
             </div>
@@ -1210,7 +1213,7 @@
           <!-- /POST PREVIEW IMG -->
           <p class="post-timestamp">May 16th, 2017</p>
           <a href="post.html">
-            <h6 class="title medium">Negotiations for Marky Strong Finished and he's Crows new Lineback</h6>
+            <h6 class="title medium">It's more difficult than ever to find savings on internal components like CPUs or RAM or even locate a high-end graphics card in stock. However, buying a new monitor could have an even more dramatic effect on your tech life than improving your system's performance.</h6>
           </a>
           <p class="post-author">By Admin<span class="separator">|</span>630 Comments</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris.</p>
@@ -1234,7 +1237,7 @@
               </div>
               <!-- POST IMG -->
               <figure class="post-img">
-                <img src="img/blog/08.jpg" alt="post08">
+                <img src="img/blog/8.jpg" alt="post08">
               </figure>
               <!-- /POST IMG -->
             </div>
@@ -1242,7 +1245,7 @@
           <!-- /POST PREVIEW IMG -->
           <p class="post-timestamp">March 29th, 2017</p>
           <a href="post.html">
-            <h6 class="title medium">Learn what the Champions eat for breakfast. Recipes Inside!</h6>
+            <h6 class="title medium">Whether you're building a PC, craving an upgrade, looking for one of the best gaming PCs, or just hoping to find one of the best gaming monitors on a big sale, we're here to help you sift through the discounts.</h6>
           </a>
           <p class="post-author">By Admin<span class="separator">|</span>763 Comments</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris.</p>
@@ -1266,7 +1269,7 @@
               </div>
               <!-- POST IMG -->
               <figure class="post-img">
-                <img src="img/blog/09.jpg" alt="post09">
+                <img src="img/blog/9.jpg" alt="post09">
               </figure>
               <!-- /POST IMG -->
             </div>
@@ -1274,7 +1277,7 @@
           <!-- /POST PREVIEW IMG -->
           <p class="post-timestamp">March 6th, 2017</p>
           <a href="post.html">
-            <h6 class="title medium">The new book about all the Supervowls is here and we Review it!</h6>
+            <h6 class="title medium">Nvidia's forthcoming GeForce RTX 40-series (Ada Lovelace) graphics cards continue to make the rounds in the rumor mill. Hardware tipster kopite7kimi, who has an impeccable history with Ampere leaks, has revealed the potential memory configurations for the GeForce RTX 4090 and RTX 4070.</h6>
           </a>
           <p class="post-author">By Admin<span class="separator">|</span>894 Comments</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris.</p>
@@ -1341,7 +1344,7 @@
         <!-- LOGO -->
         <figure class="logo">
           <img src="img/logo-footer.png" alt="logo">
-          <figcaption>The Trickster</figcaption>
+          <figcaption>PC WORLDZ</figcaption>
         </figure>
         <!-- /LOGO -->
         <p class="description">Lorem ipsum dolor sit amet, sectetur sicing elit, sed do eiusmod. Ut enim ad minim iam, quis trud exercitation laboris. En derum de lorem sectum eusidim en amet.</p>
@@ -1358,7 +1361,7 @@
           <!-- CONTACTUS LIST ITEM -->
           <li class="contactus-list-item">
             <i class="s-icon icon-envelope"></i>
-            <a href="mailto:info@tricksterhelmets.com" class="link">info@tricksterhelmets.com</a>
+            <a href="mailto:info@tricksterhelmets.com" class="link">info@pcworldz.com</a>
           </li>
           <!-- /CONTACTUS LIST ITEM -->
 
@@ -1666,7 +1669,7 @@
   <div class="widget-line-wrap dark widget-line-copy">
     <!-- WIDGET LINE -->
     <div class="widget-line big">
-      <p class="copyright"><span class="bold">The Trickster</span> | All Rights Reserved 2016</p>
+      <p class="copyright"><span class="bold">PC WORLDZ</span> | All Rights Reserved 2016</p>
       <!-- ACTIONS LIST -->
       <ul class="actions-list right">
         <!-- ACTIONS LIST ITEM -->
