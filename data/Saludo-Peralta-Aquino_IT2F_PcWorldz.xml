@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<!DOCTYPE products[
+    <!ELEMENT products (product)>
+
+    <!ELEMENT product (name, price, tag, description)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT price (#PCDATA)>
+    <!ELEMENT tag (#PCDATA)>
+    <!ELEMENT description (#PCDATA)>
+
+
+]>
+
+
 <products>
 
     <product>
