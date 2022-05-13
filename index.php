@@ -1892,7 +1892,7 @@ We hope you enjoy our products as much as we enjoy offering them to you. If you 
         <ul class="link-list decorated">
           <!-- LINK LIST ITEM -->
           <li class="link-list-item">
-            <a href="index.html">
+            <a href="index.php">
               Home
               <!-- SVG ARROW -->
               <svg class="svg-arrow tiny">
@@ -1905,7 +1905,7 @@ We hope you enjoy our products as much as we enjoy offering them to you. If you 
 
           <!-- LINK LIST ITEM -->
           <li class="link-list-item">
-            <a href="aboutus.html">
+            <a href="aboutus.php">
               About Us
               <!-- SVG ARROW -->
               <svg class="svg-arrow tiny">
@@ -1918,7 +1918,7 @@ We hope you enjoy our products as much as we enjoy offering them to you. If you 
 
           <!-- LINK LIST ITEM -->
           <li class="link-list-item">
-            <a href="shop-grid.html">
+            <a href="shop-grid.php">
               Shop
               <!-- SVG ARROW -->
               <svg class="svg-arrow tiny">
@@ -1931,7 +1931,7 @@ We hope you enjoy our products as much as we enjoy offering them to you. If you 
 
           <!-- LINK LIST ITEM -->
           <li class="link-list-item">
-            <a href="blog.html">
+            <a href="blog.php">
               Our Blog
               <!-- SVG ARROW -->
               <svg class="svg-arrow tiny">
@@ -1944,7 +1944,7 @@ We hope you enjoy our products as much as we enjoy offering them to you. If you 
 
           <!-- LINK LIST ITEM -->
           <li class="link-list-item">
-            <a href="contactus.html">
+            <a href="contactus.php">
               Contact
               <!-- SVG ARROW -->
               <svg class="svg-arrow tiny">
@@ -1957,7 +1957,7 @@ We hope you enjoy our products as much as we enjoy offering them to you. If you 
 
           <!-- LINK LIST ITEM -->
           <li class="link-list-item">
-            <a href="profile.html">
+            <a href="profile.php">
               Your Account
               <!-- SVG ARROW -->
               <svg class="svg-arrow tiny">
