@@ -1,26 +1,3 @@
-<?php
-SESSION_START();
-$acc_username = "admin";
-$acc_password = "admin";
-$acc_fullname = "Guest";
-$acc_address = "Unknown";
-$url_add = "https://".$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF'];
-
-  $_SESSION['ses_username'] = $acc_username;
-  $_SESSION['ses_password'] = $acc_password;
-  $_SESSION['ses_fullname'] = $acc_fullname;
-  $_SESSION['ses_address'] = $acc_address;
-			
-	
-	
-?>
-
-
-
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
