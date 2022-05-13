@@ -1016,7 +1016,7 @@
             <h2 class="banner-title"><span class="highlighted">High-end</span></h2>
             <h2 class="banner-title">PC Parts</h2>
             <h2 class="banner-title micro">Hundreds of brands to choose from!</h2>
-            <a href="#" class="button">Browse Popular</a>
+            <a href="#" class="button">Explore now!</a>
 
           </div>
           <!-- SLIDE CONTENT -->
@@ -1034,7 +1034,7 @@
             <h2 class="banner-title dark large">Choose</h2>
             <h2 class="banner-title main medium">Your Parts</h2>
             <h2 class="banner-title micro light">Build your dream gaming PC!</h2>
-            <a href="#" class="button">Build your helmet!</a>
+            <a href="#" class="button">Let's Go!</a>
           </div>
           <!-- SLIDE CONTENT -->
         </div>
@@ -1093,10 +1093,11 @@
   <div class="section-wrap welcome-section-wrap">
     <!-- WELCOME SECTION -->
     <div class="welcome-section section">
-      <h6 class="pretitle">Multipurpouse Product Builder</h6>
-      <h3 class="title large">Welcome to the Trickster!</h3>
+      <h6 class="pretitle">Build your own gaming PC right now!</h6>
+      <h3 class="title large">Welcome to PC WORLDZ</h3>
       <hr class="line-separator short">
-      <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris nisi ut aliquip ex ea modo consequat. Duis aute irure dolor in reprehenderit in tate velit esse cillum dolore.</p>
+      <p class="section-description">We're dedicated to give you the very best of Computer Products, with a focus on quality, price and uniqueness. Founded in 2022 by Saludo, Peralta and Aquino, PC WORLDZ serves customer worldwide, and are thrilled to be a part of the fair trade wing of the IT industry.
+We hope you enjoy our products as much as we enjoy offering them to you. If you have any questions or comments, please don't hesitate to contact us.</p>
     </div>
     <!-- /WELCOME SECTION -->
   </div>
@@ -1108,8 +1109,8 @@
     <div class="action-poster">
       <!-- ACTION POSTER INFO -->
       <div class="action-poster-info">
-        <h3 class="title">Check our <span class="bold">Crafted Items</span></h3>
-        <p>Carefully Designed by Expert Artists</p>
+        <h3 class="title">Check our <span class="bold">Available Items</span></h3>
+        <p>Carefully Designed by Experts</p>
       </div>
       <!-- /ACTION POSTER INFO -->
 
@@ -1131,7 +1132,7 @@
     <!-- FEATURES SECTION -->
     <div class="features-section section">
       <h6 class="pretitle">Take a Peek to the</h6>
-      <h3 class="title large">Helmet Features</h3>
+      <h3 class="title large">PC WORLDZ FEATURES</h3>
       <hr class="line-separator">
       <!-- BG DECORATION -->
       <img src="img/home/features.png" alt="features" class="bg-decoration">
@@ -1145,7 +1146,7 @@
             <use xlink:href="#svg-check"></use>
           </svg>
           <!-- /SVG CHECK -->
-          <p class="title">Ultra Durability</p>
+          <p class="title">Original Products</p>
           <p>Lorem ipsum dolor sit amet, consecteture ipisicing elit, sed dorem eiusmod tempor incididunt ut labore et dolore.</p>
         </li>
         <!-- /FEATURE LIST ITEM -->
@@ -1157,7 +1158,7 @@
             <use xlink:href="#svg-check"></use>
           </svg>
           <!-- /SVG CHECK -->
-          <p class="title">Water Resistant</p>
+          <p class="title">Affordable Prices</p>
           <p>Lorem ipsum dolor sit amet, consecteture ipisicing elit, sed dorem eiusmod tempor incididunt ut labore et dolore.</p>
         </li>
         <!-- /FEATURE LIST ITEM -->
@@ -1169,7 +1170,7 @@
             <use xlink:href="#svg-check"></use>
           </svg>
           <!-- /SVG CHECK -->
-          <p class="title">Super Comfort</p>
+          <p class="title">Fast Shipping</p>
           <p>Lorem ipsum dolor sit amet, consecteture ipisicing elit, sed dorem eiusmod tempor incididunt ut labore et dolore.</p>
         </li>
         <!-- /FEATURE LIST ITEM -->
@@ -1181,7 +1182,7 @@
             <use xlink:href="#svg-check"></use>
           </svg>
           <!-- /SVG CHECK -->
-          <p class="title">Special Designs</p>
+          <p class="title">24/7 Customer Support</p>
           <p>Lorem ipsum dolor sit amet, consecteture ipisicing elit, sed dorem eiusmod tempor incididunt ut labore et dolore.</p>
         </li>
         <!-- /FEATURE LIST ITEM -->
@@ -1248,8 +1249,8 @@
         <div class="step-list-item left">
           <div class="step-list-item-info">
             <h6 class="title medium"><span class="bold">01.</span></h6>
-            <h6 class="title large">Choose the<br>Helmet Model</h6>
-            <h6 class="title small">Starting the building process</h6>
+            <h6 class="title large">Choose the<br>PC PARTS</h6>
+            <h6 class="title small">Starting choosing the items for your PC</h6>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris nisi ut aliquip ex ea modo consequat. Duis aute irure dolor in reprehenderit in tate velit esse cillum dolore.</p>
           </div>
           <img src="img/home/step01.png" alt="step01" class="step-list-item-img">
@@ -1260,8 +1261,8 @@
         <div class="step-list-item right">
           <div class="step-list-item-info">
             <h6 class="title medium"><span class="bold">02.</span></h6>
-            <h6 class="title large">Customize<br>your PC</h6>
-            <h6 class="title small">Give your style to the product</h6>
+            <h6 class="title large">Add Items to<br>Cart</h6>
+            <h6 class="title small">Don't forget to add desired items to your cart</h6>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris nisi ut aliquip ex ea modo consequat. Duis aute irure dolor in reprehenderit in tate velit esse cillum dolore en repentum der lorem.</p>
           </div>
           <img src="img/home/step02.png" alt="step02" class="step-list-item-img">
@@ -1272,7 +1273,7 @@
         <div class="step-list-item left">
           <div class="step-list-item-info">
             <h6 class="title medium"><span class="bold">03.</span></h6>
-            <h6 class="title large">Confirm and<br>add to the Cart</h6>
+            <h6 class="title large">Confirm and<br>YOU'RE DONE</h6>
             <h6 class="title small">Finishing the purchase</h6>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis trud exercitation ullamco laboris nisi ut aliquip ex ea modo consequat. Duis aute irure dolor in reprehenderit in tate velit esse cillum dolore.</p>
           </div>
@@ -1294,13 +1295,13 @@
       <div class="promo-banner-title-wrap">
         <h3 class="title title-promo composed">25</h3>
         <h3 class="title title-percent">%<br><span class="title-unit">off</span></h3>
-        <h3 class="title title-extra">Custom <br>Helmets</h3>
+        <h3 class="title title-extra">First time <br>Purchase</h3>
       </div>
       <!-- PROMO BANNER TITLE WRAP -->
 
       <h6 class="title title-description">Redeeming this code: CPN8F529</h6>
-      <p>* code valid untill 08/12/2015 only for custom products</p>
-      <a href="#" class="button medium dark">Build yours now!</a>
+      <p>* code valid untill 08/12/2023 only for first time purchase</p>
+      <a href="#" class="button medium dark">Buy now!</a>
     </div>
     <!-- /PROMO BANNER -->
 
@@ -1314,7 +1315,7 @@
       <!-- PROMO BANNER TITLE WRAP -->
 
       <h6 class="title title-description">Amazing discounts all day long!</h6>
-      <p>* discount valid untill 08/12/2015</p>
+      <p>* discount valid untill 08/12/2023</p>
       <a href="#" class="button medium with-icon">
         Check all deals
         <!-- SVG ARROW -->
@@ -1332,7 +1333,7 @@
   <div class="section-wrap">
     <!-- SECTION -->
     <div class="section bottom-short">
-      <h6 class="pretitle">The Trickster</h6>
+      <h6 class="pretitle">PC WORLDZ</h6>
       <h3 class="title large">Latest Arrivals</h3>
       <hr class="line-separator">
 
@@ -1392,8 +1393,8 @@
 
           <!-- PRODUCT LIST ITEM INFO -->
           <div class="product-list-item-info">
-            <a href="product-page-v1.php"><h6 class="title">The Golden Eagle</h6></a>
-            <p class="product-description">For Extreme Conditions</p>
+            <a href="product-page-v1.php"><h6 class="title">RTX 3080</h6></a>
+            <p class="product-description">NVIDIA</p>
             <!-- PRODUCT LIST ITEM PRICE -->
             <div class="product-list-item-price">
               <!-- RATING -->
@@ -1511,8 +1512,8 @@
 
           <!-- PRODUCT LIST ITEM INFO -->
           <div class="product-list-item-info">
-            <a href="product-page-v1.php"><h6 class="title">Poisonous Frog</h6></a>
-            <p class="product-description">For Outdoor Sports</p>
+            <a href="product-page-v1.php"><h6 class="title">Intel Core i9</h6></a>
+            <p class="product-description">Intel</p>
             <!-- PRODUCT LIST ITEM PRICE -->
             <div class="product-list-item-price">
               <!-- RATING -->
@@ -1630,8 +1631,8 @@
 
           <!-- PRODUCT LIST ITEM INFO -->
           <div class="product-list-item-info">
-            <a href="product-page-v1.php"><h6 class="title">Crasher Blu</h6></a>
-            <p class="product-description">Water Resistant</p>
+            <a href="product-page-v1.php"><h6 class="title">ROG STRIX Z490-H </h6></a>
+            <p class="product-description">Republic of Gamers</p>
             <!-- PRODUCT LIST ITEM PRICE -->
             <div class="product-list-item-price">
               <!-- RATING -->
@@ -1749,8 +1750,8 @@
 
           <!-- PRODUCT LIST ITEM INFO -->
           <div class="product-list-item-info">
-            <a href="product-page-v1.php"><h6 class="title">Marble Tower</h6></a>
-            <p class="product-description">Ultra Durability</p>
+            <a href="product-page-v1.php"><h6 class="title">Ryzen 9</h6></a>
+            <p class="product-description">AMD</p>
             <!-- PRODUCT LIST ITEM PRICE -->
             <div class="product-list-item-price">
               <!-- RATING -->

@@ -903,7 +903,7 @@ span.bold {
   height: 3px;
   border: none;
   margin-top: 18px;
-  background-color: #ff5400;
+  background-color: #023E8A;
   text-align: left; }
   .line-separator.big {
     width: 50px;
@@ -2096,8 +2096,8 @@ span.bold {
   .slider-controls.secondary .slider-control {
     border-color: #cdcdcd; }
     .slider-controls.secondary .slider-control.selected {
-      border-color: #ff5400;
-      background-color: #ff5400; }
+      border-color: #48CAE4;
+      background-color: #48CAE4; }
 
 .slider-control {
   width: 10px;
@@ -2480,7 +2480,7 @@ span.bold {
       visibility: hidden;
       transition: all 0.3s ease-in-out; }
   .service-banners .service-banner.main {
-    background-color: #ff5400; }
+    background-color: #023E8A; }
   .service-banners .service-banner.secondary {
     background-color: #ff7200; }
   .service-banners .service-banner.tertiary {
@@ -2567,7 +2567,7 @@ span.bold {
     background-color: #242424; }
 
 .widget-form-wrap {
-  background-color: #ff5400; }
+  background-color: #0077B6; }
   .widget-form-wrap .widget-form {
     padding: 66px 100px 60px; }
     .widget-form-wrap .widget-form:after {
